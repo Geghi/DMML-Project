@@ -1,0 +1,13 @@
+\babel@toc {english}{}
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{1}%
+\contentsline {section}{\numberline {2}Analysis and workflow}{2}%
+\contentsline {subsection}{\numberline {2.1}Requirements}{2}%
+\contentsline {subsubsection}{\numberline {2.1.1}Functional requirement}{2}%
+\contentsline {subsubsection}{\numberline {2.1.2}Non-functional requirements}{2}%
+\contentsline {subsection}{\numberline {2.2}Use Cases}{3}%
+\contentsline {subsubsection}{\numberline {2.2.1}Use Cases Description}{3}%
+\contentsline {subsection}{\numberline {2.3}Analysis of entities}{4}%
+\contentsline {section}{\numberline {3}Design}{5}%
+\contentsline {subsection}{\numberline {3.1}Database Choice}{5}%
+\contentsline {subsection}{\numberline {3.2}Software architecture}{5}%
