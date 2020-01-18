@@ -1,0 +1,452 @@
+2020-01-18 10:35:45,367 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-18 10:41:19,067 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DMMLProject:DMMLProject:0.0.1-SNAPSHOT @ C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\pom.xml.
+2020-01-18 10:41:21,586 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:41:21,604 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:41:21,634 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:41:21,638 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:41:21,656 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DMMLProject/src
+2020-01-18 10:41:21,658 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /DMMLProject/src/main/resources overlaps with sources folder /DMMLProject/src
+2020-01-18 10:41:21,666 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /DMMLProject/src/test/java because it overlaps with /DMMLProject/src
+2020-01-18 10:41:21,888 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-18 10:41:22,968 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DMMLProject:DMMLProject:0.0.1-SNAPSHOT @ C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\pom.xml.
+2020-01-18 10:41:23,559 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:41:23,572 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:41:23,598 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:41:23,601 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:41:23,616 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DMMLProject/src
+2020-01-18 10:41:23,619 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /DMMLProject/src/main/resources overlaps with sources folder /DMMLProject/src
+2020-01-18 10:41:23,627 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /DMMLProject/src/test/java because it overlaps with /DMMLProject/src
+2020-01-18 10:41:23,737 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-01-18 10:41:24,691 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:41:24,696 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:41:24,704 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:41:24,707 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:43:07,247 [Worker-2: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DMMLProject:DMMLProject:0.0.1-SNAPSHOT @ C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\pom.xml.
+2020-01-18 10:43:09,160 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:43:09,169 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-18 10:43:09,175 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:43:09,179 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:43:10,758 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:43:10,764 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:43:10,830 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:43:10,835 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:43:28,252 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-01-18 10:43:29,004 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DMMLProject:DMMLProject:0.0.1-SNAPSHOT @ C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\pom.xml.
+2020-01-18 10:43:29,517 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DMMLProject/src
+2020-01-18 10:43:29,518 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /DMMLProject/src/main/resources overlaps with sources folder /DMMLProject/src
+2020-01-18 10:43:29,519 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /DMMLProject/src/test/java because it overlaps with /DMMLProject/src
+2020-01-18 10:43:29,684 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-01-18 10:43:30,087 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:43:30,095 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:43:30,124 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:43:30,129 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:45:23,923 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:45:23,933 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:45:23,942 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:45:23,946 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:45:33,439 [Worker-12: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:45:33,444 [Worker-12: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:45:33,450 [Worker-12: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:45:33,453 [Worker-12: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:46:03,706 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:46:03,709 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:46:03,712 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:46:03,716 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:46:08,257 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:46:08,263 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:46:08,273 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:46:08,277 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:46:39,078 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:46:39,083 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:46:39,093 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:46:39,097 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:46:49,762 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:46:49,767 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-18 10:46:49,779 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:46:49,784 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:47:13,752 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:47:13,756 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-18 10:47:13,775 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:47:13,779 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:47:39,433 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:47:39,437 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-18 10:47:39,442 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:47:39,445 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:47:45,129 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:47:45,135 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-18 10:47:45,148 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:47:45,152 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 10:47:53,546 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:47:53,553 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 10:47:53,564 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 10:47:53,568 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:22:57,387 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:22:57,392 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-18 11:22:57,410 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:22:57,413 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:22:59,310 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:22:59,316 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-18 11:22:59,326 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:22:59,330 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:23:21,459 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:23:21,465 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-18 11:23:21,475 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:23:21,479 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:23:33,567 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:23:33,572 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2020-01-18 11:23:33,580 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:23:33,584 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:23:59,069 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:23:59,074 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-01-18 11:23:59,082 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:23:59,086 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:24:00,114 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:24:00,119 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 11:24:00,125 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:24:00,128 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:26:53,595 [Worker-15: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:26:53,601 [Worker-15: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-01-18 11:26:53,614 [Worker-15: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:26:53,618 [Worker-15: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:27:02,527 [Worker-20: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:27:02,534 [Worker-20: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-01-18 11:27:02,546 [Worker-20: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:27:02,576 [Worker-20: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:27:06,932 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:27:06,937 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-01-18 11:27:06,945 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:27:06,948 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:27:19,531 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:27:19,536 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 11:27:19,541 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:27:19,545 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:27:52,961 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:27:52,966 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 11:27:52,975 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:27:52,979 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:28:08,073 [Worker-25: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:28:08,079 [Worker-25: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-01-18 11:28:08,090 [Worker-25: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:28:08,094 [Worker-25: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:28:16,146 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:28:16,150 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-01-18 11:28:16,157 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:28:16,160 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:28:30,849 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:28:30,855 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-01-18 11:28:30,863 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:28:30,868 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:29:36,537 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:29:36,542 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-01-18 11:29:36,552 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:29:36,556 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:29:46,338 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:29:46,344 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-01-18 11:29:46,357 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:29:46,362 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:29:54,825 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:29:54,830 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-01-18 11:29:54,840 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:29:54,843 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:31:21,241 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:31:21,244 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 11:31:21,247 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:31:21,250 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:31:35,930 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:31:35,935 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-01-18 11:31:35,945 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:31:35,949 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:32:32,695 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:32:32,701 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-01-18 11:32:32,708 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:32:32,712 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:33:08,307 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:33:08,313 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-01-18 11:33:08,324 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:33:08,329 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:33:54,163 [Worker-21: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DMMLProject:DMMLProject:0.0.1-SNAPSHOT @ C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\pom.xml.
+2020-01-18 11:33:56,096 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:33:56,102 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-18 11:33:56,105 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:33:56,110 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:33:57,456 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:33:57,463 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-01-18 11:33:57,514 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:33:57,518 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:34:32,132 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:34:32,138 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-01-18 11:34:32,145 [Worker-28: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:34:32,149 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:34:43,210 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:34:43,214 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 11:34:43,220 [Worker-26: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:34:43,224 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:34:52,682 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:34:52,688 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-01-18 11:34:52,695 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:34:52,698 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:38:52,816 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:38:52,822 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-01-18 11:38:52,831 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:38:52,835 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:39:30,358 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:39:30,364 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-01-18 11:39:30,372 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:39:30,376 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:40:54,261 [Worker-27: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:40:54,267 [Worker-27: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-01-18 11:40:54,281 [Worker-27: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:40:54,285 [Worker-27: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:45:02,161 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:45:02,167 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 11:45:02,175 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:45:02,179 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:45:20,248 [Worker-29: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:45:20,253 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 11:45:20,262 [Worker-29: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:45:20,265 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 11:46:02,889 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:46:02,895 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 11:46:02,905 [Worker-31: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 11:46:02,909 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:49:18,631 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-18 16:51:48,318 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:51:48,324 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2020-01-18 16:51:48,343 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:51:48,345 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:53:54,227 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:53:54,233 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 16:53:54,244 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:53:54,246 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:54:13,408 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:54:13,411 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 16:54:13,416 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:54:13,419 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:56:26,798 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:56:26,802 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 16:56:26,810 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:56:26,813 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:56:35,695 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:56:35,699 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 16:56:35,706 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:56:35,709 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:56:55,095 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:56:55,099 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 16:56:55,104 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:56:55,106 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:57:11,883 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:57:11,887 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 16:57:11,894 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:57:11,897 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:57:21,498 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:57:21,502 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 16:57:21,512 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:57:21,514 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:58:00,293 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:58:00,297 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 16:58:00,305 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:58:00,308 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:59:10,464 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:59:10,469 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 16:59:10,477 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:59:10,479 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 16:59:54,302 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:59:54,307 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 16:59:54,314 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 16:59:54,316 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:00:11,097 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:00:11,100 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:00:11,105 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:00:11,107 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:00:46,622 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:00:46,625 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:00:46,629 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:00:46,630 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:00:51,298 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:00:51,301 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:00:51,306 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:00:51,308 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:03:27,596 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:03:27,600 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:03:27,606 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:03:27,609 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:04:03,777 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:04:03,781 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:04:03,786 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:04:03,788 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:05:02,242 [Worker-15: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:05:02,246 [Worker-15: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:05:02,251 [Worker-15: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:05:02,253 [Worker-15: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:10:30,827 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:10:30,833 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:10:30,841 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:10:30,844 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:10:47,159 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:10:47,161 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:10:47,166 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:10:47,168 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:11:51,166 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:11:51,171 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:11:51,179 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:11:51,182 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:12:31,740 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:12:31,743 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:12:31,750 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:12:31,752 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:12:35,853 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:12:35,857 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:12:35,862 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:12:35,864 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:12:42,961 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:12:42,965 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:12:42,971 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:12:42,972 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:12:53,938 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:12:53,943 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:12:53,950 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:12:53,953 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:13:21,191 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:13:21,194 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:13:21,198 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:13:21,201 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:14:05,597 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:14:05,601 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:14:05,608 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:14:05,610 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:15:03,718 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:15:03,721 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:15:03,726 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:15:03,728 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:15:16,734 [Worker-3: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:15:16,737 [Worker-3: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:15:16,742 [Worker-3: Launching MainApp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:15:16,745 [Worker-3: Launching MainApp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:15:42,049 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:15:42,054 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:15:42,061 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:15:42,063 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:15:51,530 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:15:51,534 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:15:51,541 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:15:51,544 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:16:27,716 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:16:27,718 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:16:27,722 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:16:27,725 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:16:31,183 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:16:31,187 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 17:16:31,189 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:16:31,192 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:19:33,256 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:19:33,260 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:19:33,268 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:19:33,270 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:21:51,955 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:21:51,958 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:21:51,962 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:21:51,963 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:22:14,478 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:22:14,481 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:22:14,487 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:22:14,489 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:22:25,946 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:22:25,949 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:22:25,953 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:22:25,955 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:22:27,073 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:22:27,075 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:22:27,078 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:22:27,079 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:23:17,740 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:23:17,744 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:23:17,752 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:23:17,754 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:23:35,399 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:23:35,403 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:23:35,410 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:23:35,413 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:23:38,267 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:23:38,272 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:23:38,278 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:23:38,281 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:24:07,277 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:24:07,279 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:24:07,283 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:24:07,285 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:24:13,378 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:24:13,383 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:24:13,390 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:24:13,392 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:24:29,801 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:24:29,805 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-01-18 17:24:29,812 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:24:29,814 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:25:02,900 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:25:02,903 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 17:25:02,909 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:25:02,911 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:25:03,940 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:25:03,943 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 17:25:03,945 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:25:03,947 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:25:45,976 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:25:45,979 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 17:25:45,984 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:25:45,987 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:25:49,532 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:25:49,534 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-18 17:25:49,536 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:25:49,539 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:25:54,984 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:25:54,988 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 17:25:54,997 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:25:55,001 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:27:04,409 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:27:04,412 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-18 17:27:04,419 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:27:04,421 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:27:05,482 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:27:05,484 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 17:27:05,486 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:27:05,488 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:27:17,927 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:27:17,931 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-18 17:27:17,938 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:27:17,941 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:27:19,548 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:27:19,551 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-18 17:27:19,555 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:27:19,556 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:28:11,129 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:28:11,133 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-18 17:28:11,138 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:28:11,140 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:30:39,757 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:30:39,762 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-18 17:30:39,770 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:30:39,772 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:31:48,755 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:31:48,760 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-18 17:31:48,768 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:31:48,771 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:31:51,144 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:31:51,149 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-18 17:31:51,152 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:31:51,154 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:32:48,575 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:32:48,581 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-18 17:32:48,589 [Worker-24: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:32:48,592 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:34:01,941 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:34:01,944 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-18 17:34:01,948 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:34:01,950 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:34:04,922 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:34:04,925 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 17:34:04,927 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:34:04,929 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources
+2020-01-18 17:34:37,837 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:34:37,841 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-18 17:34:37,847 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-18 17:34:37,849 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Geghi\Desktop\Workspaces\DMMLProject\DMMLProject\src\test\resources

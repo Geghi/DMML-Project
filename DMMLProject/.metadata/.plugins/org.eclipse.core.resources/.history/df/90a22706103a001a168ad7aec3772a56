@@ -1,0 +1,20 @@
+package main.resources;
+
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.control.Button;
+
+public class ResultsController {
+	@FXML
+	private Button homeButton;
+
+	@FXML
+	public void loadHomePage() {
+		try {
+			Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("Home.fxml"));
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+}

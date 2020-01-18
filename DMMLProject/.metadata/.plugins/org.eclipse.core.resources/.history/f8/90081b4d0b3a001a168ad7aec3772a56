@@ -1,0 +1,27 @@
+package main.resources;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.chart.LineChart;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
+import main.resources.application.MainApp;
+
+public class HomeController {
+
+	@FXML
+	private Button beginButton;
+	
+	@FXML
+	private LineChart<Integer, Integer> sentimentGraph;
+	
+	@FXML
+	private TextField topicField;
+	
+	public void beginAnalysis(ActionEvent ev){
+		System.out.println("HY");
+		String s = MainApp.managerM.getText();
+		System.out.println(s);
+	}
+	
+}
