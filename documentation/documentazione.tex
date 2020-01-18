@@ -40,12 +40,19 @@
 
 \section{Introduction}\pagenumbering{arabic}
 The \textbf{<Name of the app>} application offers a real-time sentiment analysis service. When the application starts, the user can perform a sentiment analysis by searching for a topic in the search bar and the application will start extracting tweets analyze them.
-The result is printed into a graph which shows the number of tweet analyzed so far and the semtiment rating. The graph keeps updating until the user clicks the stop button or when the application is closed. 
+The result is printed into a graph which shows the number of tweet analyzed so far and the semtiment rating. The graph keeps updating until the user clicks the stop button or when the application is closed. Moreover the application provides some charts to check the results obtained.
 \vspace{5mm}
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth]{./images/diagrams/HomeMockup} 
-\caption{Application Mockup}
+\caption{Home Page Mockup}
+\label{fig:mockup}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{./images/diagrams/Charts} 
+\caption{Results Page Mockup}
 \label{fig:mockup}
 \end{figure}
 
@@ -62,11 +69,12 @@ The system has to allow the user to carry out basic functions such as:
 \item To select a topic.
 \item To retrive the sentiment analysis of the selected topic.
 \end{itemize}
-The system has to continuously perform the following operations: 
+The system has to perform the following operations: 
 \begin{itemize}
 \item Real-time fetching of tweets of a specified topic.
 \item Perform a sentiment analysis of the tweets and obtain the sentiment (positive, negative or neutral).
 \item When a negative tweet trend is recognized send a notification.
+\item perform a visual analysis by filling charts
 \end{itemize}
 \vspace{2mm}
 
@@ -139,9 +147,10 @@ This diagram represents the main entities of the application and the relations b
 \subsection{Database Choice}
 After the analysis phase, which has been carried out so far, we start with the design of the \textbf{<Name of the app>} application. We decide to use MongoDB as data support. Its document-based structure is very useful for the large amount of data that we need to maintain and access, as well as its high scalability, qualities that we do not find in a relational database.
 \subsection{Software architecture}
-The application is designed over 2 different layers, see figure \ref{fig:architecture_diagram}:
+The application is designed over 3 different layers, see figure \ref{fig:architecture_diagram}:
 \begin{itemize}
 \item Front-end
+\item Middleware
 \item Back-end
 \end{itemize}
 \vspace{5mm}
