@@ -8,6 +8,9 @@ import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+import org.tartarus.snowball.SnowballStemmer;
+import org.tartarus.snowball.ext.englishStemmer;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -59,10 +62,12 @@ public class HomeController {
 			// test text, later we will use scraped tweets text
 			String text = MainApp.manager.getText();
 			
+//			String words = textToWords(text);
 			ArrayList<String> words = textToWords(text);
 			
-			//Stemming algorithm.
-
+			//Stemming
+			words = stemmingProcess(words);	
+			System.out.println("\n" + words);
 			//Create Bag of words.
 			
 			// update buttons
@@ -76,19 +81,33 @@ public class HomeController {
 	//Given a text of a tweet it returns the list of meaningful words.
 	public ArrayList<String> textToWords(String text) {
 		String lettersLowerCase = text.replaceAll("[^\\p{IsAlphabetic}\\p{IsDigit}\\\" \"]", "").toLowerCase();
-		System.out.println(lettersLowerCase);
+		System.out.println("TWEET WORDS: " + lettersLowerCase + "\n");
 		// list of words
 		ArrayList<String> words = new ArrayList<>(Arrays.asList(lettersLowerCase.split(" ")));
-		
+//		String filteredWords = "";
 		ArrayList<String> filteredWords = new ArrayList<>();
 		int i = 0;
 		while (i < words.size()) {
 			if (!stopWords.contains(words.get(i))) {
-				filteredWords.add((String) words.get(i));
+				filteredWords.add(words.get(i));
+//				filteredWords += words.get(i) + " ";
 			}
 			i++;
 		}
+		System.out.println("TWEET WORDS AFTER FILTERING: " +filteredWords + "\n");		
 		return filteredWords;
+	}
+	
+	public ArrayList<String> stemmingProcess(ArrayList<String> words){
+		SnowballStemmer stemmer = new englishStemmer();
+		for(int i = 0; i < words.size(); i ++) {
+			stemmer.setCurrent(words.get(i));
+			stemmer.stem();
+			String stem = stemmer.getCurrent();
+			System.out.println("WORD: " + words.get(i) + "\t\tSTEM: " + stem);	
+			words.set(i, stem);
+		}
+		return words;
 	}
 
 	@FXML
