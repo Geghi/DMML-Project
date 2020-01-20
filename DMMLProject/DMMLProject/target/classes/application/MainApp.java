@@ -7,16 +7,19 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 public class MainApp extends Application {
+	final private String ip = "localhost";
+	final private int port = 3306;
+	final private String DB_NAME = "tweetsanalysis";
+	final private String DB_USER = "root";
 
 	private Stage primaryStage;
-	public static MongoManager managerM;
+	public static SQLManager manager;
 
 	@Override
 	public void start(Stage primaryStage) {
 		this.primaryStage = primaryStage;
 		this.primaryStage.setTitle("SentimentAnalysis");
-
-		managerM = new MongoManager(27017, "localhost");
+		manager = new SQLManager(ip, port, DB_NAME, DB_USER);
 		initLayout();
 	}
 
@@ -28,12 +31,12 @@ public class MainApp extends Application {
 //			primaryStage.getIcons().add(new Image(getClass().getClassLoader().getResourceAsStream("Images/AppIcon.png")));
 			primaryStage.setScene(scene);
 			primaryStage.show();
-			
+
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 	}
-	
+
 	public Stage getPrimaryStage() {
 		return primaryStage;
 	}
