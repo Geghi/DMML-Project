@@ -1,5 +1,7 @@
 package main.resources;
 
+import main.resources.application.MainApp;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -21,7 +23,6 @@ import javafx.scene.chart.LineChart;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import main.resources.application.MainApp;
 
 public class HomeController {
 
@@ -43,7 +44,7 @@ public class HomeController {
 
 	public void getStopWords() {
 		try {
-			File file = new File("./src/main/resources/stopwords_en.txt");
+			File file = new File("./src/main/resources/stopwords_it.txt");
 			BufferedReader br = new BufferedReader(new FileReader(file));
 			for (String line; (line = br.readLine()) != null;)
 				stopWords.add(line.trim());
@@ -54,33 +55,47 @@ public class HomeController {
 	}
 
 	@FXML
-	// Read test on database
 	public void beginAnalysis(ActionEvent event) {
 		try {
-			// TODO scrape tweets in real time.
-
+			//start getting real-time tweets from Twitter Stream
+			MainApp.twitterScraper.authenticateStream();
+			
 			// test text, later we will use scraped tweets text
 			String text = MainApp.manager.getText();
-			
+
 //			String words = textToWords(text);
 			ArrayList<String> words = textToWords(text);
-			
+
 			//Stemming
-			words = stemmingProcess(words);	
+			words = stemmingProcess(words);
 			System.out.println("\n" + words);
-			//Create Bag of words.
 			
-			// update buttons
+			//TODO list
+			// Create Bag of words.
+
+			// feature representation
+			
+			//feature selection
+			
+			//apply classifier
+			
+			//update graph and send message in case of earthquake detection.
+			
+			
+			
+			
+			//update buttons
 			resultsPageButton.setVisible(true);
 			stopButton.setVisible(true);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 	}
-	
-	//Given a text of a tweet it returns the list of meaningful words.
+
+	// Given a text of a tweet it returns the list of meaningful words.
 	public ArrayList<String> textToWords(String text) {
-		String lettersLowerCase = text.replaceAll("[^\\p{IsAlphabetic}\\p{IsDigit}\\\" \"]", "").toLowerCase();
+		String lettersLowerCase = text.replaceAll("[^\\p{IsAlphabetic}\\p{IsDigit}\\\" \"]", " ").trim().toLowerCase();
+		lettersLowerCase = lettersLowerCase.replaceAll(" +", " ");
 		System.out.println("TWEET WORDS: " + lettersLowerCase + "\n");
 		// list of words
 		ArrayList<String> words = new ArrayList<>(Arrays.asList(lettersLowerCase.split(" ")));
@@ -94,25 +109,29 @@ public class HomeController {
 			}
 			i++;
 		}
-		System.out.println("TWEET WORDS AFTER FILTERING: " +filteredWords + "\n");		
+		System.out.println("TWEET WORDS AFTER FILTERING: " + filteredWords + "\n");
 		return filteredWords;
 	}
-	
-	public ArrayList<String> stemmingProcess(ArrayList<String> words){
+
+	public ArrayList<String> stemmingProcess(ArrayList<String> words) {
 		SnowballStemmer stemmer = new englishStemmer();
-		for(int i = 0; i < words.size(); i ++) {
+		for (int i = 0; i < words.size(); i++) {
 			stemmer.setCurrent(words.get(i));
 			stemmer.stem();
 			String stem = stemmer.getCurrent();
-			System.out.println("WORD: " + words.get(i) + "\t\tSTEM: " + stem);	
+			System.out.println("WORD: " + words.get(i) + "\t\t\t\tSTEM: " + stem);
 			words.set(i, stem);
 		}
 		return words;
 	}
 
 	@FXML
-	public void stopAnalysis() {
-		System.out.println("need to implement that function");
+	public void stopAnalysis(ActionEvent event) {
+		try {
+			MainApp.twitterScraper.stopStream();
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
 	}
 
 	@FXML

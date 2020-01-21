@@ -17,7 +17,7 @@
 
 % ---- FRONTESPIZIO ----- 
 \begin{frontespizio} 
- \Preambolo{\renewcommand{\frontpretitlefont}{\fontsize{15}{12}\scshape}}
+\Preambolo{\renewcommand{\frontpretitlefont}{\fontsize{15}{12}\scshape}}
 \Istituzione {University of Pisa}
 \Divisione {Scuola di Ingegneria}
 \Corso [Laurea]{Artificial Intelligence and Data Engineering}
@@ -39,8 +39,8 @@
 
 
 \section{Introduction}\pagenumbering{arabic}
-The \textbf{<Name of the app>} application offers a real-time sentiment analysis service. When the application starts, the user can perform a sentiment analysis by searching for a topic in the search bar and the application will start extracting tweets analyze them.
-The result is printed into a graph which shows the number of tweet analyzed so far and the semtiment rating. The graph keeps updating until the user clicks the stop button or when the application is closed. Moreover the application provides some charts to check the results obtained.
+The \textbf{TweetQuake} application offers a real-time earthquake detection service in Italy. When the application opens up it will start fetching tweets and analyzing them to recognize ones related to an earthquake.
+The application will show the number of tweets analyzed so far and the corresponding number of earthquake tweets and non-earthquake tweets. When some earthquake tweets are recognized the application show a warning message, if there is a trend of earthquake tweets then the application will show an emergency message.
 \vspace{5mm}
 \begin{figure}[h]
 \centering
@@ -64,24 +64,19 @@ The result is printed into a graph which shows the number of tweet analyzed so f
 \subsection{Requirements}
 
 \subsubsection{Functional requirement}
-The system has to allow the user to carry out basic functions such as:
+The system has to iteratively perform the following operations: 
 \begin{itemize}
-\item To select a topic.
-\item To retrive the sentiment analysis of the selected topic.
-\end{itemize}
-The system has to perform the following operations: 
-\begin{itemize}
-\item Real-time fetching of tweets of a specified topic.
-\item Perform a sentiment analysis of the tweets and obtain the sentiment (positive, negative or neutral).
-\item When a negative tweet trend is recognized send a notification.
-\item Perform a visual analysis by filling charts
+\item Real-time fetching of tweets.
+\item Perform a classification of the tweets and obtain the label (earthquake or non-earthquake).
+\item When an earthquake tweet is regocnized send a warning message.
+\item When an earthquake tweet trend is recognized send an emergency message.
 \end{itemize}
 \vspace{2mm}
 
 \subsubsection{Non-functional requirements}
 \begin{itemize}
 \item Usability, ease of use and intuitiveness of the application by the user.
-\item The system should provide access to the database with a few seconds of latency.
+\item The system should provide a high level of accuracy.
 \end{itemize}
 
 \clearpage
@@ -92,29 +87,33 @@ The system has to perform the following operations:
 \textbf{Actors}
 \begin{itemize}
 \item{User: this actor represents a user of the application}
+\item{System: this actor represent the system}
+\item{Twitter: this actor represent the Twitter service}
 \end{itemize}
 
 \subsubsection{Use Cases Description}
-\begin{table}[h]
-\centering
-\begin{tabular}{p{0.16\textwidth}p{0.2\textwidth}lp{0.5\textwidth}}
-\hline
-\textbf{Event} & \textbf{UseCase} & \textbf{Actor(s)} & \textbf{Description}\\ \hline
-Log in, Log out & Login,  Logout & Admin, User & The user logs in/out the application.\\ \hline
-Display all the Films & Browse, Find, Display Films & User, Admin & The user chooses that he wants to view the list of Films. The system browses the data on the db and returns them on the interface.\\ \hline
-View Statistics & View Top Rated Films, View Top Productions, View Top Film-maker Countries, View Most Active Users & Admin & The Admin clicks on the button to view the statistics. The system browses on the db the informations used in the calculation and display the result.\\ \hline
-Add a film & Add Film & Admin & The admin submits the Film information. The system updates the db and the interface.\\ \hline
-Update a film & Update Film & Admin & The admin selects the film and commits the new informations. The system updates the db and the interface.\\ \hline
-Delete a film & Delete Film & Admin & The admin selects the film and submits the delete. The system updates the db and the interface.\\ \hline
-View the film informations & Select Film, Display Film Info & User, Admin & The user selects the film. The system shows the film informations on the interface.\\ \hline
-Vote a film & Vote Film & User, Admin & The user submits the vote on a selected film. The system updates the db and the interface.\\ \hline
-\end{tabular}
-\end{table}
+\begin{itemize}
+\item Twitt Search : This use case can be performed by the user to start the real-time tweet fetching.
+\item Retrive Tweet: This use case represents the action of getting a tweet from twitter.
+\item Twitter Connection: This use case represents the connection with the Twitter service.
+\item HTTP Request for Connection: This use case represents the Request for the connection to Twitter Service.
+\item HTTP Response for Connection: This use case represents the Response for the connection to Twitter Service.
+\item HTTP Request for Tweets: This use case represents the Request for tweets.
+\item HTTP Response for tweets: This use case represents the Response for tweets.
+\item Perform Text Analysis: This use case represents the process of Text analysis performed by the system ( for more informations check paragraph < add paragraph num > )
+\item Apply Classification Algorithm: This use case represents the classification of the tweets performed with the classifier generated by the "Generate Classifier" use case.
+\item Show Warning/Emergency Message: This use case displays an error message if some earthquake tweet are recognized.
+\item Display Results: This use case shows the results of the classification.
+\item Generate Classifier: This use case is performed automatically by the system and it generates a classifier using a training set. 
+\item Browse Tweets: The system browses the data on the database.
+\item Train the classifier: Perform an algorithm to generate the classifier.
+\item Stop Real-Time fetching: This use case allows the user to stop the real-time tweets fetching.
+\end{itemize}
 
 \begin{minipage}{\linewidth}
 \begin{center}
 \vspace{8mm}
-\includegraphics[ width=0.7\textheight]{./images/diagrams/UseCase} 
+\includegraphics[ width=0.55\textheight]{./images/diagrams/UseCase} 
 \captionof{figure}{Use cases diagram}
 \vspace{3mm}
 \end{center}
@@ -122,8 +121,29 @@ Vote a film & Vote Film & User, Admin & The user submits the vote on a selected 
 
 
 \clearpage
+\subsection{System Flow Diagram}
+\begin{minipage}{\linewidth}
+\begin{center}
+\vspace{8mm}
+\includegraphics[ width=0.6\textheight]{./images/diagrams/Flow Diagram} 
+\captionof{figure}{Flow Diagram}
+\vspace{3mm}
+\end{center}
+\end{minipage}
+
+\clearpage
+\subsection{System Architecture}
+\begin{minipage}{\linewidth}
+\begin{center}
+\vspace{8mm}
+\includegraphics[ width=0.13\textheight]{./images/diagrams/Process} 
+\captionof{figure}{Text Analysis Process}
+\vspace{3mm}
+\end{center}
+\end{minipage}
 
 
+\clearpage
 \subsection{Analysis of entities}
 This diagram represents the main entities of the application and the relations between them.
 \begin{minipage}{\linewidth}
@@ -143,7 +163,7 @@ This diagram represents the main entities of the application and the relations b
 \section{Design}
 
 \subsection{Database Choice}
-After the analysis phase, which has been carried out so far, we start with the design of the \textbf{<Name of the app>} application. We decide to use MongoDB as data support. Its document-based structure is very useful for the large amount of data that we need to maintain and access, as well as its high scalability, qualities that we do not find in a relational database.
+After the analysis phase, which has been carried out so far, we start with the design of the \textbf{TweetQuake} application. We decide to use MongoDB as data support. Its document-based structure is very useful for the large amount of data that we need to maintain and access, as well as its high scalability, qualities that we do not find in a relational database.
 \subsection{Software architecture}
 The application is designed over 3 different layers, see figure \ref{fig:architecture_diagram}:
 \begin{itemize}
@@ -164,85 +184,17 @@ The application is designed over 3 different layers, see figure \ref{fig:archite
 \vspace{7mm}
 \clearpage
 
-\iffalse
 
 \subsection{Populating the database}
-The dataset used in the \textbf{Moviegram} application was created by scraping the Open Movie Database, using their API (\url{http://www.omdbapi.com/}). Given a movie title, this API returns all the information in the OMDb about that movie. Before started building up the dataset using the API, it was necessary to obtain a list of movie titles, to be passed to the API; the list of titles was built up using different web pages as sources:
+The dataset used in the \textbf{TweetQuake} application was created by scraping Tweets, using Twitter4j which is a java library for the Twitter API. Given location and tags to search for, this API returns the informations about the tweets matching those parameters. To build the Database two different queries have been used: 
 \begin{itemize}
-\item a page of Wikipedia was scraped
-\item the pages referring to each year from 2007 to 2021 on the site \url{https://www.wildaboutmovies.com/} were scraped
-\item a csv file in the GitHub repository \url{https://github.com/fivethirtyeight/data} was used
-\end{itemize}
-Once the titles’ list was ready, the only thing left to do was to obtain the key requested by the OMDb API to download the films’ information. Each key provided by the database allows a user to download 1000 film’s information per day. Once the movies’ list and the keys were ready, we could start to use our scraping application.\\
+\item The first query selects the tweets in Italy matching the tags {\#}terremoto, {\#}magnitudo and {\#}earthquake.
+\item The second query selects the tweets in Italy without tags.
+\end{itemize} 
+After that the text of the tweets have been stored in the database and the labels have been added manually to obtain a good training (and test) set to generate a classifier.
+The second query is necessary to obtain better results because without the tweets obtained from it the classifier would suffer from overfitting.\\
 
-\begin{minipage}{\linewidth}
-\begin{center}
-\vspace{1mm}
-\includegraphics[height = 80mm]{./images/screens/OMDBScraperScreen.jpg} 
-\vspace{6mm}
-\captionof{figure}{Java class of OMDBScraper\\}
-\label{fig:OMDBScraper}
-\vspace{4mm}
-\end{center}
-\end{minipage}
-Using our “OmdbScraper” application, we managed to obtain the collection of movies’ information in a JSON format.\\ The format of our JSON elements are the following:\\
-
-\begin{minipage}{\linewidth}
-\begin{center}
-\vspace{1mm}
-\includegraphics[height = 94mm]{./images/screens/elementJSONExample.jpg} 
-\vspace{6mm}
-\captionof{figure}{Example of JSON document\\}
-\label{fig:elementJSONExample}
-\vspace{5mm}
-\end{center}
-\end{minipage}
-We integrated our movies dataset with a plot dataset, found on \url{kaggle.com} (wiki\_plot). In order to do so, we searched for matching between the plot’s movie title and the movie title in our collection; once the matching was found, the plot field in the original element was replaced with the data presents in the plot dataset.\\
-Moreover, we managed some data types because, scraping the OpenMovie platform, we'd obtained every field in a string format, but to compute the analytics operations described in the functional requirements section, we need to have some fields in a number format. We ran the following javascript code on the mongo shell, to perform the conversion:
-\vspace{2mm}
-\input{./java_code/conversion.tex}
-\vspace{5mm}
-
-Finally, for the users' information, we didn't use any kind of scraping or sources. We just created a collection with a few documents, one for each of us, leaving this part of the database as a prototype for future public use. Every user has maintained in the db his name, username, password, and country, as well as a list with the titles of the movies he voted and the relative vote.
-% inserire immagine di un documento utente 
-\begin{comment}
-	{
-		Name:"Alice",
-		Username:"alice",
-		Password:"alice",
-		Country:"Italy"
-		Numrates:"0",
-		Rated:
-		[
-			{Movie:"", Rate:"", Timestamp:""},
-			{Movie:"", Rate:"", Timestamp:""},
-			...
-		}
-	}
-\end{comment}
-In the film collection, on the other hand, the list of users who voted for each film is not kept, but only a field that keeps the number of votes received (\textit{imdbVotes}) and one that keeps the average vote (\textit{imdbRating}).
-
-% ----- INDEXES -----
-\subsection{MongoDb indexes}
-\subsubsection{Index 1}
-The first index introduced is related to the users collection. This collection is indexed using 'Numrates', a counter for the number of rates that a user has given.
-This index will improve the performance of the operation that returns the ranking of the most active users on the plattform.
-\begin{verbatim}
-     db.users.createIndex({"Numrates" : -1 });
-\end{verbatim}
-\subsubsection{Index 2}
-In order to speeding up the operation that displays the top rated movies related to a specific country, we introduce 2 indexes on the fields 'Country' and 'Ratings'. Theese 2 indexes decrease the performance of the operation that displays the top movies, not considering the country, but we expect the previous operation to be compute more frequently.
-\begin{verbatim}
-     db.films.createIndex({"Country" : 1, "imdbRating" : -1});
-\end{verbatim}
-
-% ----- ANALYTICS -----
-\subsection{Analytics and statistics}
-\subsubsection{View the top production houses}
-This analytic is performed to display all production houses.
-\subsubsection{Top rated movies by year and country}
-
-
+<code here>
 
 \clearpage
 
@@ -254,69 +206,44 @@ The java driver for mongo manage the comunication between client application lay
 For the backend layer it is used MongoDB, version 4.2.\\
 So this application is tested using these technologies, considering these particular versions: for other versions the correct execution isn't guaranteed .\\
 
-\subsection{Replica setup}
-The following code shows how it is realized the architecture in which 3 mongo server are running in back end layer:
-\vspace{2mm}
-\input{./java_code/replicaSetup.tex}
-\vspace{5mm}
-\subsection{Java class description}
-\subsubsection{Declaration of class Film}
-The following java-code shows a declaration of the class Film.
+\subsubsection{Declaration of class Tweet}
+The following java-code shows a declaration of the class Tweet.
 \vspace{2mm}
 \\ <code here>
 \vspace{5mm}
 
-\subsubsection{Declaration of class User}
-The following java-code shows a declaration of the class User.
-\vspace{2mm}
-	\\ <code here>
-\vspace{5mm}
-
- Another foundamental class is MongoManager, that manages the db-connection and the related operations.
- The implementation of a set of CRUD operations is desribed as follows.
-
+Another foundamental class is SQLManager, that manages the db-connection and the related operations.
 
 \subsection{Create}
-Adding one or more films to the database using a json document as input.
+Adding a tweet to the database.
 \vspace{2mm}
  \\<Code here>
 \vspace{5mm}
 
 \subsection{Read}
-This functionality returns a list of films searched by title. A film is returned if its title contains a piece of the searched title (case insensitive).\\
-\vspace{2mm}
-\\<code here>
-\vspace{5mm}
-
-\subsection{Update}
-This operation allows users to update their vote about a selected film.\\
-\vspace{2mm}
-\\<code here>
-\vspace{5mm}
-
-\subsection{Delete}
-This operation allows an admin to remove a selected film from the database.\\
+This functionality returns a list of tweets.
 \vspace{2mm}
 \\<code here>
 \vspace{5mm}
 
 \clearpage
 
-\subsection{Analytics}
-In this phase the analytics operations that a user is able to perform on the database are shown.
+\subsection{Text Analysis}
+This functionality performs a text analysis of a tweet.
+\vspace{2mm}
+\\<code here>
+\vspace{5mm}
+
+\clearpage
 
 \subsection{GUI}
-There are three fxml documents, one for each page of the application, which describes the objects showed in the GUI interface of the related page.
+There is an fxml documents which describes the objects showed in the GUI interface of the  page.
 \begin{itemize}
 \item Home.fxml
-\item Login.fxml
-\item Register.fxml
 \end{itemize}
-In addiction there are 3 classes, called Controllers, that are in charge of handling events of the objects defined in the associated fxml document.
+In addiction there is a class, called Controller, that is in charge of handling events of the objects defined in the associated fxml document.
 \begin{itemize}
 \item HomeController.java
-\item LoginController.java
-\item RegisterController.java
 \end{itemize}
 
 \clearpage
@@ -350,16 +277,5 @@ After selecting an analytics you will see the results in the table below, and fo
 
 To log out, just click on the appropriate button at the bottom.
 
-\clearpage
-%ADIMN MANUAL%
-\subsection{Admin Manual}
-If you have an admin user, you are entitled to make changes on the film lists. You need to log in inserting your username and password, and the application will recognize you as the administrator and show up a third tab called "Admin", figure~\ref{fig:admin0}\\
 
-<page of the admin tab --> image name: admin0>\\
-
-In the Admin tab you can search for a film the same way the user did in the Home tab and after selecting one you are able to delete it by clicking the "Delete" button. On the right pane you are able to insert a json document in the text field, that represent a film in the database, and by clicking the Add button you will insert one or more films in the database (fig.~\ref{fig:admin1}).\\ 
-
-<admin tab after searching films and with a json document in the text field --> image name: admin1>
-
-\fi
 \end{document}
