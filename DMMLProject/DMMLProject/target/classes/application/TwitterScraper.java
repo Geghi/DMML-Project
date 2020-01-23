@@ -1,7 +1,6 @@
 package main.resources.application;
 
-import java.sql.Date;
-import java.text.SimpleDateFormat;
+import java.awt.Toolkit;
 import java.util.List;
 
 import twitter4j.User;
@@ -43,7 +42,7 @@ public class TwitterScraper {
 
 	public void search() throws TwitterException, InterruptedException {
 		authenticate();
-		findTweets("(#terremoto) OR (#magnitudo) OR (#earthquake)");
+		findTweets("(#terremoto) OR (#magnitudo)");
 
 	}
 
@@ -79,15 +78,19 @@ public class TwitterScraper {
 
 			@Override
 			public void onStatus(Status status) {
+				Toolkit.getDefaultToolkit().beep();
 				User user = status.getUser();
 				String username = status.getUser().getScreenName();
 				System.out.println(username);
 				String profileLocation = user.getLocation();
 				System.out.println(profileLocation);
 
-				long tweetId = status.getId();
-				System.out.println(tweetId);
+//				long tweetId = status.getId();
+//				System.out.println(tweetId);
+				System.out.println(status.getCreatedAt());
 				String content = status.getText();
+				System.out.println(content + "\n");
+				content = cleanText(content);
 				System.out.println(content + "\n");
 			}
 
@@ -115,12 +118,11 @@ public class TwitterScraper {
 		fq.language(lang);
 
 //		to track by keywords
-		String keywords[] = { "Terremoto", "Magnitudo", "Earthquake" };
+		String keywords[] = { "Terremoto", "Magnitudo" };
 //		String keywords[] = { "Italia", "youtube" };
 		fq.track(keywords);
 
 		// to track by location
-
 //		double[][] locations = {{40,13}, {48,19}};
 //	    fq.locations(locations);
 
@@ -137,10 +139,10 @@ public class TwitterScraper {
 
 	public void findTweets(final String query) throws TwitterException, InterruptedException {
 		Query twitterQuery = new Query(query);
-//		GeoLocation location = new GeoLocation(39, 98); // latitude, longitude of USA
-//		twitterQuery.setGeoCode(location, 100, Query.KILOMETERS);
+		GeoLocation location = new GeoLocation(41.9, 12.5); // latitude, longitude of USA
+		twitterQuery.setGeoCode(location, 500, Query.KILOMETERS);
 		twitterQuery.setResultType(Query.RECENT);
-		twitterQuery.setUntil("2020-01-17");
+//		twitterQuery.setUntil("2020-01-17");
 		twitterQuery.setLang("it");
 		twitterQuery.setCount(100);
 		QueryResult queryResult;
@@ -156,14 +158,8 @@ public class TwitterScraper {
 			for (Status tweet : tweets) {
 				String tw = tweet.getText();
 				System.out.println("--------- NEW TWEET ----------");
-				System.out.println("--------- RAW TWEET ---------- \n" + tw);
-
-//				tw = tw.replaceAll("(@[^\\s]*)|([R][T][\\s])|(#[^\\s]*)|", "").trim();
-
-//				remove citations (@name) , links (http://...) and RT at the beginning.
-				tw = tw.replaceAll("(@[^\\s]*)|([R][T][\\s])|(http[^\\s]*)", "");
-//				tw = tw.replaceAll("[^\\p{IsAlphabetic}\\p{IsDigit}\\\" \"]", " ").toLowerCase().trim();
-				tw = tw.replaceAll(" +", " ").trim();
+				System.out.println("--------- RAW TWEET ---------- \n" + tw);			
+				tw = cleanText(tw);
 
 				System.out.println("--------- EDITED TWEET --------- \n" + tw + "\n");
 				System.out.println(tweet.getGeoLocation());
@@ -178,6 +174,16 @@ public class TwitterScraper {
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
+	}
+
+	public String cleanText(String text) {
+//		remove citations (@name) , links (http://...) and RT at the beginning.
+		text = text.replaceAll("(@[^\\s]*)|([R][T][\\s])|(http[^\\s]*)", "");
+//		remove non alphabetic / non digit characters. convert to lowercase.
+		text = text.replaceAll("[^\\p{IsAlphabetic}\\p{IsDigit}]", " ").toLowerCase().trim();
+		text = text.replaceAll(" +", " ").trim();
+
+		return text;
 	}
 
 }

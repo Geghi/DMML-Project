@@ -23,7 +23,7 @@ public class MainApp extends Application {
 	private static final String CONSUMER_SECRET = "your-secret";
 	private static final String ACCESS_TOKEN = "your-token";
 	private static final String ACCESS_TOKEN_SECRET = "your-secret-token";
-
+	
 	public static final TwitterScraper twitterScraper = new TwitterScraper(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN,
 			ACCESS_TOKEN_SECRET);
 
