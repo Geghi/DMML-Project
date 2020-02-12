@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.20)  21 JAN 2020 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.11.20)  12 FEB 2020 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -355,11 +355,11 @@ File: ./images/diagrams/HomeMockup.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./images/diagrams/HomeMockup.jpg  used on input line 4
 7.
 (pdftex.def)             Requested size: 424.06033pt x 339.35701pt.
-<./images/diagrams/Charts.jpg, id=33, 804.00375pt x 603.25375pt>
+<./images/diagrams/Charts.jpg, id=33, 793.96625pt x 603.25375pt>
 File: ./images/diagrams/Charts.jpg Graphic file (type jpg)
 <use ./images/diagrams/Charts.jpg>
 Package pdftex.def Info: ./images/diagrams/Charts.jpg  used on input line 54.
-(pdftex.def)             Requested size: 424.06033pt x 318.17654pt.
+(pdftex.def)             Requested size: 424.06033pt x 322.20828pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -378,14 +378,14 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [3
 
 ]
-<./images/diagrams/UseCase.jpg, id=47, 847.165pt x 905.3825pt>
+<./images/diagrams/UseCase.jpg, id=47, 851.18pt x 1145.27875pt>
 File: ./images/diagrams/UseCase.jpg Graphic file (type jpg)
 <use ./images/diagrams/UseCase.jpg>
-Package pdftex.def Info: ./images/diagrams/UseCase.jpg  used on input line 116.
+Package pdftex.def Info: ./images/diagrams/UseCase.jpg  used on input line 128.
 
-(pdftex.def)             Requested size: 369.38165pt x 394.76381pt.
+(pdftex.def)             Requested size: 369.38165pt x 497.02138pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 113--121
+Overfull \hbox (15.0pt too wide) in paragraph at lines 125--133
 []$[]$ 
  []
 
@@ -396,7 +396,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 113--121
 File: ./images/diagrams/Flow Diagram.jpg Graphic file (type jpg)
 <use ./images/diagrams/Flow Diagram.jpg>
 Package pdftex.def Info: ./images/diagrams/Flow Diagram.jpg  used on input line
- 128.
+ 140.
 (pdftex.def)             Requested size: 402.96367pt x 258.18616pt.
  [6
 
@@ -404,18 +404,18 @@ Package pdftex.def Info: ./images/diagrams/Flow Diagram.jpg  used on input line
 <./images/diagrams/Process.jpg, id=59, 121.45375pt x 783.92876pt>
 File: ./images/diagrams/Process.jpg Graphic file (type jpg)
 <use ./images/diagrams/Process.jpg>
-Package pdftex.def Info: ./images/diagrams/Process.jpg  used on input line 139.
+Package pdftex.def Info: ./images/diagrams/Process.jpg  used on input line 151.
 
 (pdftex.def)             Requested size: 87.31119pt x 563.55507pt.
  [7
 
  <./images/diagrams/Process.jpg>]
-<./images/diagrams/Uml Analysis diagram.jpg, id=63, 121.45375pt x 61.22874pt>
+<./images/diagrams/Uml Analysis diagram.jpg, id=63, 553.06625pt x 121.45375pt>
 File: ./images/diagrams/Uml Analysis diagram.jpg Graphic file (type jpg)
 <use ./images/diagrams/Uml Analysis diagram.jpg>
 Package pdftex.def Info: ./images/diagrams/Uml Analysis diagram.jpg  used on in
-put line 152.
-(pdftex.def)             Requested size: 84.81076pt x 42.75517pt.
+put line 164.
+(pdftex.def)             Requested size: 424.06033pt x 93.12306pt.
  [8
 
  <./images/diagrams/Uml Analysis diagram.jpg>]
@@ -423,19 +423,14 @@ put line 152.
 File: ./images/diagrams/architecture.jpg Graphic file (type jpg)
 <use ./images/diagrams/architecture.jpg>
 Package pdftex.def Info: ./images/diagrams/architecture.jpg  used on input line
- 178.
+ 190.
 (pdftex.def)             Requested size: 404.14334pt x 284.52756pt.
  [9
 
- <./images/diagrams/Architecture.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
-
- []
-
-[10
+ <./images/diagrams/Architecture.jpg>] [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 204--208
+Underfull \hbox (badness 10000) in paragraph at lines 215--219
 
  []
 
@@ -445,103 +440,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--208
 
 ] [13
 
-]
-
-LaTeX Warning: Reference `fig:screen0' on page 14 undefined on input line 252.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
-
- []
-
-
-LaTeX Warning: Reference `fig:screen1' on page 14 undefined on input line 256.
-
-
-LaTeX Warning: Reference `fig:screen2' on page 14 undefined on input line 256.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
-
- []
-
-
-LaTeX Warning: Reference `fig:screen3' on page 14 undefined on input line 262.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
-
- []
-
-
-LaTeX Warning: Reference `fig:screen5' on page 14 undefined on input line 270.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-
- []
-
-
-LaTeX Warning: Reference `fig:screen6' on page 14 undefined on input line 274.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-
- []
-
-[14
+] [14
 
 ] (./documentazione.aux)
-
-LaTeX Warning: There were undefined references.
-
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6419 strings out of 492164
- 98056 string characters out of 6129087
- 205886 words of memory out of 5000000
- 10688 multiletter control sequences out of 15000+600000
+ 6409 strings out of 492164
+ 97932 string characters out of 6129087
+ 206886 words of memory out of 5000000
+ 10678 multiletter control sequences out of 15000+600000
  9803 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,61p,444b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,11n,61p,582b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
 ive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist
@@ -552,7 +465,7 @@ sfbx1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.p
 fb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2019/
 texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on documentazione.pdf (16 pages, 407156 bytes).
+Output written on documentazione.pdf (16 pages, 421577 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
