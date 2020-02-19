@@ -12,9 +12,6 @@ import java.util.LinkedHashSet;
 import java.util.Random;
 import java.util.Set;
 
-import org.tartarus.snowball.SnowballStemmer;
-import org.tartarus.snowball.ext.italianStemmer;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -29,19 +26,17 @@ import main.resources.application.MainApp;
 import weka.attributeSelection.InfoGainAttributeEval;
 import weka.attributeSelection.Ranker;
 import weka.classifiers.Evaluation;
+import weka.classifiers.functions.SMO;
 import weka.classifiers.meta.FilteredClassifier;
-import weka.classifiers.trees.J48;
-import weka.classifiers.trees.RandomForest;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
-import weka.core.tokenizers.NGramTokenizer;
-import weka.core.tokenizers.WordTokenizer;
-import weka.core.converters.DatabaseSaver;
+import weka.core.stemmers.LovinsStemmer;
+import weka.core.stemmers.SnowballStemmer;
+import weka.core.stopwords.WordsFromFile;
 import weka.experiment.InstanceQuery;
 import weka.filters.Filter;
 import weka.filters.supervised.attribute.AttributeSelection;
-import weka.filters.unsupervised.attribute.AddID;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class HomeController {
@@ -59,21 +54,10 @@ public class HomeController {
 
 	@FXML
 	public void initialize() {
-		getStopWords();
 //		MainApp.manager.cleanDbText();
 	}
 
-	public void getStopWords() {
-		try {
-			File file = new File("./src/main/resources/stopwords_it.txt");
-			BufferedReader br = new BufferedReader(new FileReader(file));
-			for (String line; (line = br.readLine()) != null;)
-				stopWords.add(line.trim());
-			br.close();
-		} catch (Exception ex) {
-			ex.printStackTrace();
-		}
-	}
+
 
 	@FXML
 	public void beginAnalysis(ActionEvent event) {
@@ -82,41 +66,14 @@ public class HomeController {
 //			MainApp.twitterScraper.authenticateStream(); // start getting real-time tweets from Twitter Stream
 //			MainApp.twitterScraper.search();
 
-			// PROCESS FOR SINGLE TWEET
-//			String text = MainApp.manager.getSingleText(); // test text, later we will use scraped tweets text.
-//			ArrayList<String> words = textToWords(text);
-//			System.out.println("\n" + words);
 
-			// STEMMING 1
-//			String stems = stemmingProcess(words);
-//			System.out.println("\n" + stems);
-			// STEMMING 2
-//			words = stemmingProcess(words);
-//			System.out.println("\n" + words);
 
-//			PROCESS FOR MULTIPLE TWEETS
-//			String[] text = MainApp.manager.getText();
-//			String[] label = MainApp.manager.getLabels();
-
-//			ArrayList<ArrayList<String>> words = new ArrayList<>();
-//
-//			for (int i = 0; i < text.length; i++) {
-//				words.add(textToWords(MainApp.twitterScraper.cleanText(text[i])));
-//			}
-//
-//			System.out.println("\n" + words);
-//
-//			for (int i = 0; i < words.size(); i++) {
-//				words.set(i, stemmingProcess(words.get(i)));
-//			}
-//			System.out.println("\n" + words);
-//
 ////			//createArffFile(words, label);
 //			
 			Instances data;
 		
 			data = getDataFromArffFile();
-//			data =getDataFromSQLDatabase();
+//			data = getDataFromSQLDatabase();
 			buildClassifier(data);
 			
 //			MainApp.manager.saveArffToDb(data);
@@ -136,37 +93,11 @@ public class HomeController {
 		}
 	}
 
-//	Given a text of a tweet it returns the list of words.
-	public ArrayList<String> textToWords(String text) {
-		String lettersLowerCase = text.replaceAll("[^\\p{IsAlphabetic}\\p{IsDigit}\\\" \"]", " ").trim().toLowerCase();
-		lettersLowerCase = lettersLowerCase.replaceAll(" +", " ");
-		System.out.println("TWEET WORDS: " + lettersLowerCase + "\n");
+	
+	//text to lowercase
+	//String lettersLowerCase = text.replaceAll("[^\\p{IsAlphabetic}\\p{IsDigit}\\\" \"]", " ").trim().toLowerCase();
+	//lettersLowerCase = lettersLowerCase.replaceAll(" +", " ");
 
-		ArrayList<String> words = new ArrayList<>(Arrays.asList(lettersLowerCase.split(" "))); // list of words
-		ArrayList<String> filteredWords = new ArrayList<>();
-		int i = 0;
-		while (i < words.size()) {
-			if (!stopWords.contains(words.get(i))) {
-				filteredWords.add(words.get(i));
-			}
-			i++;
-		}
-		System.out.println("TWEET WORDS AFTER FILTERING: " + filteredWords + "\n");
-		return filteredWords;
-	}
-
-//	Given a list of words it returns a list of stems.
-	public ArrayList<String> stemmingProcess(ArrayList<String> words) {
-		SnowballStemmer stemmer = new italianStemmer();
-		for (int i = 0; i < words.size(); i++) {
-			stemmer.setCurrent(words.get(i));
-			stemmer.stem();
-			String stem = stemmer.getCurrent();
-			System.out.println("WORD: " + words.get(i) + "\t\t\t\tSTEM: " + stem);
-			words.set(i, stem);
-		}
-		return words;
-	}
 
 	public void createArffFile(ArrayList<ArrayList<String>> stems, String[] label) {
 		try {
@@ -242,28 +173,39 @@ public class HomeController {
 
 	public FilteredClassifier buildClassifier(Instances data) {
 		FilteredClassifier fc = null;
-		try {
-			J48 tree = new J48();
-			RandomForest forest = new RandomForest();
-			forest.setNumIterations(50);
+		try {		
+			//stemmer
+			LovinsStemmer stemmer = new LovinsStemmer();
+		
+			//stopwords filter
+			WordsFromFile stopwordHandler = new WordsFromFile();
+			File stopwordsFile = new File("./src/main/resources/stopwords_it.txt");
+			stopwordHandler.setStopwords(stopwordsFile);
 			
+			//tokenization + stopword filtering + stemming
 			StringToWordVector filter = new StringToWordVector(1000);
+			filter.setOutputWordCounts(true);
+			filter.setStemmer(stemmer);
+			filter.setStopwordsHandler(stopwordHandler);
 			filter.setInputFormat(data);
 			data = Filter.useFilter(data, filter);
 			
-			
 			InfoGainAttributeEval igAttributeEval = new InfoGainAttributeEval();
 			Ranker ranker = new Ranker();
-			ranker.setOptions(new String[] { "-T", "0.0" });
+			ranker.setOptions(new String[] {"-T", "0.0"});
 			
+			//feature selection
 			AttributeSelection attSelect = new AttributeSelection();
 			attSelect.setEvaluator(igAttributeEval);
 			attSelect.setSearch(ranker);
 			attSelect.setInputFormat(data);
 			
+			//classification algorithm
+			SMO smo = new SMO();
+			
 			fc = new FilteredClassifier();
 			fc.setFilter(attSelect);
-			fc.setClassifier(forest);
+			fc.setClassifier(smo);
 			fc.buildClassifier(data);
 			
 

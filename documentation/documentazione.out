@@ -1,0 +1,27 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Analysis and workflow}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Requirements}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Functional requirement}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Non-functional requirements}{subsection.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Use Cases}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Use Cases Description}{subsection.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{System Flow Diagram}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.4}{Text analysis process}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.5}{Analysis of entities}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.6}{Data analysis}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.6.1}{Building the classifier}{subsection.2.6}% 12
+\BOOKMARK [3][-]{subsubsection.2.6.2}{2016-2017 earthquakes database}{subsection.2.6}% 13
+\BOOKMARK [3][-]{subsubsection.2.6.3}{Application parameters}{subsection.2.6}% 14
+\BOOKMARK [2][-]{subsection.2.7}{Model analysis}{section.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.7.1}{Choosing the classifier}{subsection.2.7}% 16
+\BOOKMARK [1][-]{section.3}{Design}{}% 17
+\BOOKMARK [2][-]{subsection.3.1}{Software architecture}{section.3}% 18
+\BOOKMARK [1][-]{section.4}{Implementation}{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{Used technologies}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.2}{Declaration of class Tweet}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.3}{Building the classifier}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.4}{Create}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.5}{Read}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.6}{Classification of a tweet}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.7}{GUI}{section.4}% 26
+\BOOKMARK [1][-]{section.5}{User Manual}{}% 27

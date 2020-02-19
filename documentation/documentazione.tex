@@ -9,11 +9,17 @@
 \usepackage[margin=1.2in]{geometry}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{url}
+\usepackage{hyperref}
 \usepackage{verbatim}
+\usepackage{xcolor}
 
 \begin{document}
 \selectlanguage{english}
 \baselineskip 13pt
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+}
 
 % ---- FRONTESPIZIO ----- 
 \begin{frontespizio} 
@@ -31,7 +37,9 @@
  \Punteggiatura {}
 \end{frontespizio}
 
+
 \clearpage
+
 
 % ----- INDICE -----
 	\tableofcontents\thispagestyle{empty}
@@ -168,14 +176,52 @@ This diagram represents the main entities of the application and the relations b
 \end{center}
 \end{minipage}
 
+\clearpage
+\subsection{Data analysis}
+\subsubsection{Building the classifier}
+In order to build our classifier raw tweets have been scraped using a twitter scraping tool called Twint written in Python. Given location, tags to search for and a timestamp  (or a date interval), returns the informations about the tweets matching those parameters. For more information visit: \textcolor{blue}{\href{https://www.github.com/twintproject/twint}{Twint Github Page}}. To build the training set two different queries have been used: 
+\begin{itemize}
+\item The first query selects the tweets in Italy matching the tag {\#}terremoto.
+\item The second query selects the tweets in Italy without tags.
+\end{itemize} 
+After that the labels (earthquake, non-earthquake) have been added manually to obtain a good training (and test) set to generate a classifier. We ended up with a balanced dataset of 300 tweets per class, 600 labeled tweets.\\
+The training data will be stored in an arff file, after cleaning the text of the tweet. The second query is necessary to obtain better results because without the tweets obtained from it the classifier would suffer from overfitting.\\
+Once the training data is ready a classification algorithm is applied in order to build the classifier.
+
+\subsubsection{2016-2017 earthquakes database}
+Another database was created by collecting (in the same way) tweets between the dates 2017-06-30 and 2016-06-01. With that database we managed to create an histogram to check if there are spikes of tweets corresponding to catastrofic earthquakes in order to perform an analysis. The total number of analyised tweets is 304307.
+
+<histogram image>
+
+As we can see there are 3 major spikes relative to the 24-08-2016, 30-10-2016 and 18-01-2017 huge earthquakes. We created the same histogram after performing a classification on the tweets using the classifier obtained from the training set.
+
+\subsubsection{Application parameters}
+Two parameters are used in this application:
+\begin{itemize}
+\item Number of tweets classified as "earthquake" to detect before sending a warning message.
+\item Number of tweets classified as "earthquake" to detect before sending an emergency message.
+\end{itemize}
+We tested how many earthquake tweets are detected in a time span of 10 minutes of a real earthquake, then checked the same number for a random time span of 10 minutes. we obtained  5 tweets in 10 minutes for the 2016-10-30 and 0 tweets in a random date. We heuristically decided to put the first parameter at 2 and the second at 4.
+
+\clearpage
+\subsection{Model analysis}
+\subsubsection{Choosing the classifier}
+The choice of the classifier has been made by evaluating some quality measures of different classifiers applying a 10-fold cross-validation to find the best one for our application. A matrix of the results obtained from the different classifiers is show in the figure below.
+
+<different classifiers measures>
+
+The confusion matrix obtained from the classification is the following:
+
+<confusion matrix of the classifier>
+
+The SVM classifier seems to be the best for this application in terms of good accuracy and speed.
+
 
 
 \clearpage
 % ----- DESIGN -----
 \section{Design}
 
-\subsection{Database Choice}
-After the analysis phase, which has been carried out so far, we start with the design of the \textbf{TweetQuake} application. We decide to use mySQL as data support since we don't have to store large amount of data in the database and we don't need a high-performance database. In the database we will store only the informations about the recognized earthquakes. The training tweets will be temporarily stored into an SQL database and after some operation the training dataset will be saved in an arff file (and no longer into the SQL database).
 \subsection{Software architecture}
 The application is designed over 3 different layers, see figure \ref{fig:architecture_diagram}:
 \begin{itemize}
@@ -197,18 +243,7 @@ The application is designed over 3 different layers, see figure \ref{fig:archite
 \clearpage
 
 
-\subsection{Building the classifier}
-In order to build our classifier raw tweets have been scraped using Twitter4J which is a java library for the Twitter API. Given location and tags to search for, this API returns the informations about the tweets matching those parameters. To temporarely save those tweets a mySQL database is used. To build the Database two different queries have been used: 
-\begin{itemize}
-\item The first query selects the tweets in Italy matching the tags {\#}terremoto and {\#}magnitudo.
-\item The second query selects the tweets in Italy without tags.
-\end{itemize} 
-After that the labels (earthquake, non-earthquake) have been added manually to obtain a good training (and test) set to generate a classifier. We ended up with a balanced dataset of 700 tweets per class, 1400 labeled tweets.\\
-The training data will be stored in an arff file, after cleaning the text of the tweet and applying tokenization, stop-words filtering and stemming. The second query is necessary to obtain better results because without the tweets obtained from it the classifier would suffer from overfitting.\\
-Once the training data is ready a classification algorithm is applied in order to build the classifier.
-
 \clearpage
-
 % ----- IMPLEMENTATION -----
 \section{Implementation}
 \subsection{Used technologies}
@@ -225,18 +260,11 @@ The following java-code shows a declaration of the class Tweet.
 
 \noindent Another foundamental class is SQLManager, that manages the db-connection and the related operations.
 
-\subsection{Building the classifier using RandomForest}
-The following java-code shows the training part of the process to obtain our classifier using the random forest classification method.
+\subsection{Building the classifier}
+The following java-code shows the training part of the process to obtain our classifier using the SVM classification method.
 
 <code here>
 
-The choice of the random forest method has been made by testing multiple classification algorithms such as NaiveBayes, ... and compare them. Since the random forest seems the most accurate from the tested ones it has been choosen for the TweetQuake application.
-
-<table comparing classification models>
-
-The confusion matrix obtained from the classification is the following:
-
-<confusion matrix of the classifier>
 
 \subsection{Create}
 Adding a tweet to the database.
@@ -250,10 +278,8 @@ This functionality returns a list of tweets.
 \\<code here>
 \vspace{5mm}
 
-\clearpage
-
-\subsection{Text Analysis}
-This functionality performs a text analysis of a tweet.
+\subsection{Classification of a tweet}
+This functionality performs a classification of a tweet.
 \vspace{2mm}
 \\<code here>
 \vspace{5mm}

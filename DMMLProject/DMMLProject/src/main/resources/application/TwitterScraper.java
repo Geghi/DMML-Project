@@ -21,9 +21,6 @@ import twitter4j.TwitterStreamFactory;
 import twitter4j.auth.OAuth2Token;
 import twitter4j.conf.ConfigurationBuilder;
 
-/**
- * Created by sveinung on 6/12/15.
- */
 public class TwitterScraper {
 	private final String consumerKey;
 	private final String consumerSecret;
@@ -42,7 +39,7 @@ public class TwitterScraper {
 
 	public void search() throws TwitterException, InterruptedException {
 		authenticate();
-		findTweets("(#terremoto) OR (#magnitudo)");
+		findTweets("terremoto");
 
 	}
 
@@ -118,7 +115,7 @@ public class TwitterScraper {
 		fq.language(lang);
 
 //		to track by keywords
-		String keywords[] = { "Terremoto", "Magnitudo" };
+		String keywords[] = { "Terremoto" };
 //		String keywords[] = { "Italia", "youtube" };
 		fq.track(keywords);
 
@@ -177,6 +174,10 @@ public class TwitterScraper {
 	}
 
 	public String cleanText(String text) {
+		text = text.replaceAll("pic.twitter.com/.*", "");
+		//replace datetime
+		text = text.replaceAll("(\\d{4}-\\d{2}-\\d{2}) | (\\d{4}/\\d{2}/\\d{2})", "");
+		text = text.replaceAll("(\\d{2}:\\d{2}:\\d{2})|UTC", "");
 //		remove citations (@name) , links (http://...) and RT at the beginning.
 		text = text.replaceAll("(@[^\\s]*)|([R][T][\\s])|(http[^\\s]*)", "");
 //		remove non alphabetic / non digit characters. convert to lowercase.

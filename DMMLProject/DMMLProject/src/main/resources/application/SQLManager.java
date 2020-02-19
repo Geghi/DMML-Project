@@ -74,61 +74,6 @@ public class SQLManager {
 		return false;
 	}
 
-	public String[] getLabels() {
-		int size;
-		String[] label = null;
-		try {
-			result = selectionTweetStatement.executeQuery();
-			result.last();
-			size = result.getRow();
-			result.beforeFirst();
-			label = new String[size];
-			int i = 0;
-			while (result.next()) {
-				label[i] = (result.getString("Label"));
-				i++;
-			}
-			return label;
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		return label;
-	}
-	
-	public String[] getText() {
-		int size;
-		String[] text = null;
-		try {
-			result = selectionTweetStatement.executeQuery();
-			result.last();
-			size = result.getRow();
-			result.beforeFirst();
-			text = new String[size];
-			int i = 0;
-			while (result.next()) {
-				text[i] = (result.getString("Text"));
-				i++;
-			}
-			return text;
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		return text;
-	}
-
-	public String getSingleText() {
-		String text = null;
-		try {
-			result = selectionTweetStatement.executeQuery();
-			if (result.first()) {
-				text = result.getString("Text");
-			}
-			return text;
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		return text;
-	}
 	
 	public void saveArffToDb(Instances data) {
 		try {
@@ -154,23 +99,4 @@ public class SQLManager {
 			e.printStackTrace();
 		}
 	}
-	
-//	public void cleanDbText() {
-//		try {
-//			result = selectionTweetStatement.executeQuery();
-//			String text;
-//			int id;
-//			while (result.next()) {
-//				text = result.getString("Text");
-//				id = result.getInt("Id");
-//				text = MainApp.twitterScraper.cleanText(text);
-//				updateTweetStatement.setString(1, text);
-//				updateTweetStatement.setInt(2, id);
-//				updateTweetStatement.executeUpdate();
-//			}
-//		} catch (Exception ex) {
-//			ex.printStackTrace();
-//		}
-//	}
-	
 }
