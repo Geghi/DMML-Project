@@ -1,0 +1,615 @@
+@RELATION tweets
+
+@ATTRIBUTE Tweet STRING
+@ATTRIBUTE Label {earthquake,non-earthquake}
+
+@DATA
+
+'è entrata mamma in bagno dopo aver buttato un urlo dicendo sbrigati esci il terremoto io così mi ha fatto prendere una paralisi',earthquake
+'abruzzo 7novembre giovedì terremoto roma ingv terremoto balsorano gli esperti nel 1654 sisma di magnitudo 6 4',earthquake
+'addio a castelluccio di norcia la perla dell appennino rasa al suolo dal terremoto 6 5',earthquake
+'agenzia ansa terremoto ancora un altra scossa di 4 6 segnalati crolli a visso',earthquake
+'alle 21 18 la seconda scossa di terremoto ancora più forte di magnitudo 5 9 poi ancora alle 23 42 un altra',earthquake
+'altra scossa di terremoto avvertita in ciociaria continua lo sciame sismico',earthquake
+'altra scossa di terremoto avvertita in ciociaria continua lo sciame sismico e la paura',earthquake
+'amatrice il cane avverte il terremoto e trascina fuori casa la padrona prima che crolli la casa',earthquake
+'ancora dramma terremoto centro italia sconvolto',earthquake
+'ancora terremoto e panico in centro italia pompieri già pronti a partire',earthquake
+'ancora terremoto numero di morti con un bilancio che cresce sempre più sempre impreparati l italia è un',earthquake
+'ancora una volta l italia stroncata dal terremoto bilancio provvisorio 159 vittime',earthquake
+'aquila terremoto anche noi spavento nn oso immaginare aquilani cm stanno',earthquake
+'avvertita anche in sabina terremoto di magnitudo 4 4 tra abruzzo e lazio scossa avvertita anche a roma e napoli via',earthquake
+'bellissima scossa di terremoto e ci siamo tutti un po cagati in mano io basta voglio qualche ora di pace con chi voglio io e senza pensare a altro',earthquake
+'buona notte con un pensiero affettuoso alle persone colpite dal terremoto un abbraccio a tutti voi forza',earthquake
+'calcio terremoto si ferma pescaraatalanta paura sugli spalti',earthquake
+'caos a roma termini per scossa di terremoto ritardi fino a 200 minuti',earthquake
+'case collassate ad amatrice dopo violenta scossa terremoto',earthquake
+'clicca e leggi il terremoto fa tremare l italia magnitudo 6 5 scossa avvertita dal trentino alla puglia ne',earthquake
+'cnr con il terremoto suolo giù di 18 cm deformazione per 20 km verso nord',earthquake
+'crollata basilica san benedetto a norcia vicini alla popolazione terremoto',earthquake
+'cronaca violente scosse di terremoto nell italia centrale crolli e feriti soccorsi al lavoro',earthquake
+'dal terremoto ci salvi iddio roma daily news',earthquake
+'devastante notizia oggi per quanto riguarda il terremoto in italia pregare per l italia',earthquake
+'deve essere stato un boato folle non riesco neppure a immaginarlo terremoto',earthquake
+'di nuovo la paura del terremoto siamo vicini alle popolazioni colpite questa mattina grazie ai volontari e ai',earthquake
+'dongiodandrea su terremoto siamo vicini a tutti gli sfollati ai feriti e alle famiglie delle tante vittime di questa tragedia',earthquake
+'dongiodandrea su terremoto stasera pensiero e la preghiera vanno a suffragio delle vittime e dei loro cari',earthquake
+'due forti scosse di terremoto questa sera nel centro italia l epicentro nella valnerina',earthquake
+'due forti scosse in poche ore crolla campanile camerino due forti scosse di terremoto in poche ore il cent',earthquake
+'e anche stasera siamo tutta la famiglia a casa mia a dormire siamo tutti accampati non bastano nemmeno i letti terremoto',earthquake
+'ecco la situazione a fabriano dove ci almeno 600 sfollati in attesa di verifiche a case terremotocentroitalia terremoto marche',earthquake
+'eleonora giorgi spaventata dal terremoto ballava tutto pavimento e pareti via',earthquake
+'emergenza sangue per terremoto l elenco degli ospedali per donare sangue a roma policlinico universitario',earthquake
+'emergenza terremoto il comunicato di cns e civis',earthquake
+'emergenza terremoto in centro italia partono dalla puglia esperti e tecnici della protezione civile',earthquake
+'forte scossa avvertita ora a l aquila terremoto',earthquake
+'forte scossa di terremoto dopo la paura ecco le ordinanze di chiusura delle scuole',earthquake
+'forte scossa di terremoto in centro italia avvertita anche in campania',earthquake
+'forte scossa di terremoto in ciociaria paura e gente in strada',earthquake
+'forte scossa di terremoto in provincia de l aquila panico tra la popolazione',earthquake
+'forte scossa di terremoto tra 4 4 e 4 9 richter nell aquilano ore 18 34 epicentro a balsorano 30 km da avezzano l incubo del terremoto torna di nuovo prepotentemente a farsi risentire me la pagherete anche per questo ve l assicuro abruzzesi di merda',earthquake
+'forte terremoto vicino a rieti crolli ad amatrice paura a roma cronaca',earthquake
+'fortissima scossa di terremoto all aquila ora avvertita anche a roma 4 8 tutti i dettagli',earthquake
+'frattura monte porche le devastanti conseguenze del terremoto spaccano la montagna',earthquake
+'frosinone e anagni scuole chiuse si temono scosse di terremoto stanotte',earthquake
+'ho appena sentito di una scossa di terremoto a l aquila state tutti bene spero nessun danno e che sia l ultima preoccupata',earthquake
+'huff post terremoto migliaia di sfollati non deportateci protezione civile impos paginanuova press',earthquake
+'il bilancio provvisorio conta 159 vittime accertate terremoto',earthquake
+'il centro italia devastato dal terremoto le vittime salite a 159si scava ancora prima notte in tenda per',earthquake
+'il terremoto a balsorano aq è stato di magnitudo 4 4 state calmi',earthquake
+'il terremoto fa di nuovo paura la situazione è apocalittica',earthquake
+'il terremoto ha fatto danni a vittime',earthquake
+'in tutto ciò io ho ancora i brividi per i danni e le vittime che ha provocato il terremoto',earthquake
+'incommentabile terremoto',earthquake
+'io non riesco a prendere sonno e smettere di seguire questa tragedia terremoto',earthquake
+'italia sempre siamo con voi earthquake terremoto',earthquake
+'l aquila ingv scossa di terremoto di magnitudo 4 4 sisma avvertito anche a roma playhitmusic',earthquake
+'la faglia che si e aperta nell italia centrale e cosi vasta e profonda che e logico aspettarsi scosse fortissime ancora a lungo terremoto',earthquake
+'la meteo it lameteo meteo meteo diretta forte terremoto in abruzzo paura all aquila 4 4 richter sisma avvertito anche a roma',earthquake
+'la scossa delle 21 30 l ho sentita tutta mamma mia che paura sono vicino a tutti gli abitanti che hanno subito questo terremoto',earthquake
+'la scossa di terremoto magnitudo 4 4 registrata da ingv alle 18 35 con epicentro 5 km a sud est di balsorano aq fortunatamente non ha causato danni a persone o cose come riferiscono le autorità la scossa è stata avvertita anche a roma e distintamente all aquila e pescara',earthquake
+'la terra non smette di tremare terremoto',earthquake
+'la terra torna a tremare forte scossa di terremoto a l 39 aquila picchionews',earthquake
+'la terra trema in diretta immagini esclusive del terremoto del 30 10 2016',earthquake
+'le regioni del centro italia lazio marche e umbria sono state devastate dal terremoto almeno 159 morti',earthquake
+'leggo it libero e ilgiornale giuliani prevede nuovo terremoto ml 7 5 il ricercatore smentisce giornalista a',earthquake
+'mamma mia nuova scossa di terremoto di magnitudo 6 5 con nuovi 3 000 sfollati a norcia vicinanza a tutti loro',earthquake
+'mandiamo un messaggio o chiamiamo da rete fissa il 45500 aiutiamo i nostri concittadini spargete la voce terremoto prayforitaly',earthquake
+'mannaggia ma non finisce più quest anno un abbraccio a chi vive momenti di paura e di disagio col terremoto',earthquake
+'mio cuore e pensieri sono con gli abitanti del villaggio di accumoli ai dilettanti e pescara del tronto tutta italia a causa del terremoto',earthquake
+'naufragio in terra il pensiero di erri de luca dopo il terremoto nel centro italia',earthquake
+'nessuna immagine renderà mai ciò che si prova davvero mi vengono ancora i brividi e la paura di riaccende terremoto tenerebottasempre',earthquake
+'news terremoto centro italia numerosi crolli decimato il patrimonio storico artistico',earthquake
+'non ci sono vittime ma la devastazione è totale terremoto',earthquake
+'non ho parole terremoto prayforitaly',earthquake
+'notizie ancona terremoto i numeri del dramma nelle marche gli sfollati sono 25mila e qu marche italia',earthquake
+'notizie ancona video terremoto dentro gli appartamenti inagibili di via vallemiano vide marche italia',earthquake
+'nuova forte scossa di terremoto tra marche e umbria sisma avvertito in tutta la ciociaria',earthquake
+'nuova scossa terremoto',earthquake
+'oggi il mio pensiero va a tutte quelle famiglie italiane colpite dal terremoto il mio amore e le mie preghiere vanno tutte per voi',earthquake
+'ogni tanto si sento gli elicotteri dei soccorsi mi vengono i brividi terremoto',earthquake
+'parsi terremoto fa tremare la nostra anima',earthquake
+'pomezia è arianna masciarelli la giovane deceduta nel terremoto di questa notte',earthquake
+'porca miseria altri crolli terremoto',earthquake
+'quando a roma si sente una scossa di terremoto da qualche altra parte ci sarà stata botta tremenda speriamobene laquila',earthquake
+'questa volta stavo sul divano saltavo da sdraiata terremoto',earthquake
+'questo terremoto del 30 10 2016 ore 07 41 di 6 5 di magnitudo si è sentito in tutta italia fino in austria',earthquake
+'regà un terremoto assurdo state bene',earthquake
+'repubblica terremoto centro italia norcia la strada si apre in due',earthquake
+'repubblica terremoto paesi distrutti le immagini aeree',earthquake
+'resistono ad un terremoto di 9 gradi richter ecco le case progettate in giappone',earthquake
+'resto basita terremoto blundo m5s scossa da 7 1 a 6 1 per interessi governo',earthquake
+'rimini terremoto il liceo scientifico serpieri sospende le lezioni per lunedì 31 ottobre rimini scuola',earthquake
+'roma e di almeno 159 morti il bilancio provvisorio delle vittime del terremoto che ha colpito in particolare le',earthquake
+'scossa di terremoto a laquila di magnitudo 4 9 danni ai container',earthquake
+'scossa di terremoto di magnitudo 4 7 stima provvisoria registrata alle 18 35 nei pressi di l aquila avvertita anche a roma aggiornamenti su s ultimora net 2019 11 07 scossa di terremoto di magnitudo 4 7 stima provvisoria registrata alle 18 35 nei pressi di laquila avvertita anche a roma aggiornamenti su ultimora24',earthquake
+'scossa di terremoto di ml 4 4 nella zona al confine tra abruzzo e lazio tra le province di l aquila e frosinone',earthquake
+'seconda scossa di magnitudo 5 9 avvertita fino in austria la forte scossa di terremoto di magnitudo 5 9 regi',earthquake
+'sempre più paura terremotocentroitalia terremoto',earthquake
+'siamo vicini alle popolazioni colpite nuovamente dal terremoto questi avvenimenti ci trovano impotenti ma',earthquake
+'siste il kit di pronto soccorso per i terremoti dice cecchi paone terremoto centroitalia earthquake',earthquake
+'so che non serve a nulla ma il mio pensiero va a tutte le persone coinvolte nel terremoto vittime e soccorritori',earthquake
+'solidarieta e vicinanza alle famiglie colpite dal dolore e dalla sofferenza generata da questo terribile terremoto',earthquake
+'sono oltre un centinaio i comuni marchigiani che hanno segnalato crolli a causa del terremoto',earthquake
+'tempestivo l intervento del nucleo di protezione civile guardie forestali e ambientali valle del liri che a seguito della forte scossa di terremoto avvenuta nella serata ha effettuato diversi controlli sul',earthquake
+'terremoto 14 ricoverati al gemelli di roma 2 minori in codice rosso terremoto 14 ricoverati al gemelli',earthquake
+'terremoto 25mila sfollati nelle marche 3mila a norcia cronaca',earthquake
+'terremoto 28 000 sfollati il mio pensiero va a loro',earthquake
+'terremoto 30 ottobre crolli in oltre 100 comuni delle marche',earthquake
+'terremoto 30 ottobre distrutta castelluccio di norcia quotidianonet',earthquake
+'terremoto 30 ottobre la montagna spaccata a castelsantagelo sul nera quotidianonet',earthquake
+'terremoto 400 gli sfollati abruzzesi 200 brandine e coperte nel teramano',earthquake
+'terremoto 400 gli sfollati abruzzesi 200 brandine e coperte nel teramano terremoto 400 gli sfollati',earthquake
+'terremoto 6 0 devasta il centro italia almeno 159 morti si scava ancora fra le macerie',earthquake
+'terremoto 6 0 devasta il centro italia almeno 159 morti si scava ancora fra le macerie amatric',earthquake
+'terremoto 6 0 devasta il centro italia almeno 159 morti si scava ancora fra le macerie amatric vía',earthquake
+'terremoto 6 5 ad assisi il 31 ottobre sopralluoghi a scuole ed edifici pubblici il comune di assisi ha disposto',earthquake
+'terremoto 6 5 video choc di alcuni cacciatori al momento della scossa',earthquake
+'terremoto 8 feriti lievi a fabriano fabriano ancona a fabriano a causa del crollo di alcuni tramezzi i',earthquake
+'terremoto a balsorano trema l italia centrale sisma 4 4 ingv',earthquake
+'terremoto a l aquila la terra torna a tremare ancora',earthquake
+'terremoto a l aquila scossa di magnitudo 4 4',earthquake
+'terremoto a l aquila scossa di magnitudo 4 4 avvertita fino a roma gente in strada terremoto l aquila scossa',earthquake
+'terremoto a l aquila scossa di magnitudo tra 4 4 e 4 9 avvertita fino a roma gente in strada terremoto l aquila scossa',earthquake
+'terremoto è il più grave dal 1980 viabilità compromessa ma nessuna vittima live',earthquake
+'terremoto abruzzo circa 4 000 sfollati',earthquake
+'terremoto abruzzo nel primo pomeriggio il numero di sfollati era quotato intorno a 100 ma già in quel momento era',earthquake
+'terremoto all aquila forte scossa avvertita anche a roma',earthquake
+'terremoto allaquila 4 4 paura a roma e napoli crepe in alcuni edifici treni regionali sospesi rallenta la tav terremoto allaquila paura napoli',earthquake
+'terremoto allaquila 4 4 paura a roma e nel basso lazio avvertito anche a napoli terremoto allaquila paura basso',earthquake
+'terremoto allaquila di 4 4 avvertito a roma alcune scuole chiuse domani disagi sui treni av terremoto allaquila avvertito',earthquake
+'terremoto allaquila di 4 4 avvertito a roma crepe su alcuni edifici a sora disagi sui treni av terremoto allaquila avvertito',earthquake
+'terremoto amatrice pompieri salvano due bambini estratti vivi dalle macerie',earthquake
+'terremoto attimi di terrore allo stadio adriatico con i tifosi che lasciano gli spalti',earthquake
+'terremoto bastano 5 secondi e il tuo pollice per donare alle popolazioni colpite dal sisma invia sms al 45500',earthquake
+'terremoto bilancio sale a 159 morti si scava senza sosta tra le macerie migliaia di sfollati',earthquake
+'terremoto bilancio sale a 159 morti si scava senza sosta tra le macerie migliaia di sfollati notte di paura',earthquake
+'terremoto c è stata un altra scossa 15 minuti fa ad amatrice come state',earthquake
+'terremoto casini nel mondo la terra vuole farsi sentire anche troppo finisce siate forte finirà presto vi sono vicina',earthquake
+'terremoto castelli ascoli è impazzita ma è crollato solo un muro divisorio sindacoascoli',earthquake
+'terremoto castelluccio di norcia quasi rasa al suolo ssaggeroit',earthquake
+'terremoto castelluccio di norcia un paese distrutto',earthquake
+'terremoto centro italia 2 500 sfollati sindaco accumoli case tutte inagibili via',earthquake
+'terremoto centro italia 6 5 richter visto da vicino al monte vettore',earthquake
+'terremoto centro italia la distruzione di amatrice ripresa dal drone dei vv ff',earthquake
+'terremoto centro italia norcia la strada si apre in due',earthquake
+'terremoto centro italia ultime news in tempo reale 120 le vittime provvisorie sale il numero dei feriti',earthquake
+'terremoto centro italia visso montagna frana nel fiume nera le immagini dal drone',earthquake
+'terremoto chieti crepe alle 5 palazzine video',earthquake
+'terremoto circa 25 mila sfollati nelle marche',earthquake
+'terremoto confcommerio attiva la raccolta fondi per le zone colpite',earthquake
+'terremoto crollato hotel roma ad amatrice curcio trenta persone allinterno terremoto',earthquake
+'terremoto crollato hotel roma ad amatrice curcio trenta persone allinterno terremoto crollato hotel',earthquake
+'terremoto curcio scossa 6 5 ha cambiato il quadro sindaco almeno 3 mila sfollati video',earthquake
+'terremoto da 6 5 e nessuna vittima complimenti agli apparati dello stato che lavorano duro sulle agibilità orgoglio italia',earthquake
+'terremoto danni a roma bloccato ascensore di palazzo di 14 piani in zona torre gaia disabili isolati',earthquake
+'terremoto danni a roma lesionato ascensore di palazzo di 14 piani in zona torre gaia disabili rischiano l isolamento',earthquake
+'terremoto devasta il centro italia almeno 159 morti',earthquake
+'terremoto devasta il centro italia centinaia fra morti e feriti si scava fra le macerie am via',earthquake
+'terremoto devasta il centro italia oltre 70 morti',earthquake
+'terremoto devasta il centro italia parte la solidarietà di imprenditori e politici',earthquake
+'terremoto di 4 4 a balsorano ingv zona ad alta pericolosità è una sequenza sismica diversa',earthquake
+'terremoto di 6 5 in centro italia magnitudo 6 5 venti feriti e 28 mila sfollati stampa it 2016 10 30 italia cronache nuova fortissima scossa di terremoto nelle marche 7rkcaiwmsjcyhqnhu4kckp pagina html',earthquake
+'terremoto di 6 5 tra norcia e preci mai così forte dall 80 nessuna vittima si temono 100mila sfollati',earthquake
+'terremoto di magnitudo 4 4 in abruzzo avvertito anche a roma',earthquake
+'terremoto di magnitudo 4 4 in abruzzo la scossa avvertita fino a roma e napoli terremoto magnitudo abruzzo scossa',earthquake
+'terremoto di magnitudo 4 4 tra abruzzo e lazio ore 18 35 scossa avvertita anche a roma e napoli decine di chiamate ai vigili del fuoco gente in strada in alcuni centri della marsica non si segnalano danni nè feriti',earthquake
+'terremoto di magnitudo 4 4 tra l aquila e frosinone al momento non si segnalano particolari danni a persone o cose una scossa di magnitudo 4 4 è stata registrata dall ingv alle 18 35 con epicentro 5 km a sud est di balsorano in provincia dell aquila',earthquake
+'terremoto di magnitudo 4 4 tra l aquila e frosinone nessun danno abruzzo',earthquake
+'terremoto di magnitudo 6 devasta il centro italia 159 morti 400 feriti più di 100 dispersi',earthquake
+'terremoto di scala 4 4 tra l aquila e frosinone alle 18 35 preoccupato',earthquake
+'terremoto dolore in tutto il mondo per il crollo della basilica di san benedetto a norcia il gazzettino',earthquake
+'terremoto droni per verificare i nuovi crolli',earthquake
+'terremoto due forti scosse 5 4 e 5 9 nell italia centrale paura a roma gente in strada evacuata la farnesina',earthquake
+'terremoto esodo epocale nelle marche sfollati negli alberghi della costa',earthquake
+'terremoto evacuati 750 studenti dai collegi universitari camerino via s',earthquake
+'terremoto filippine scossa di magnitudo 5 7 a jomalig tutti i dettagli',earthquake
+'terremoto forte scossa di magnitudo 5 0 a tonga la terra trema per centinaia di chilometri i dati ufficiali del sisma',earthquake
+'terremoto forti scosse in centro italia la prima di magnitudo 5 4 la seconda 5 9 sindaco di ussita paese è',earthquake
+'terremoto fortissimo magnitudo 6 5 in diretta alle ore 7 41 immagini impressionanti cacciatori il video',earthquake
+'terremoto frattura nel colle dell infinito forse irreversibile l erede di leopardi con quello che c hanno',earthquake
+'terremoto gravi danni a ussita e preci',earthquake
+'terremoto il crollo di amatrice e la scuola antisismica che si è sbriciolata chi è che ha firmato l agibilità',earthquake
+'terremoto il cuore gonfio di tristezza vorrei tornare piccolo e non capire una preghiera per tutte le vittime',earthquake
+'terremoto in abruzzo di 4 4 avvertito anche a roma e napoli gente in strada nella marsica terremoto abruzzo avvertito anche',earthquake
+'terremoto in abruzzo earthquake alle ore 18 35 ora italiana del 07 11 2019 si è verificato un terremoto 1 di magnitudo 4 4 a 5 km a sudest di balsorano italia l epicentro icona verde dista 53 km da una delle zone a maggior rischio sismico calcolate dal mio modell',earthquake
+'terremoto in abruzzo la scossa avvertita fino a roma e napoli',earthquake
+'terremoto in abruzzo migliaia di sfollati molti crolli e case inagibili',earthquake
+'terremoto in abruzzo scossa di 4 4 gradi al confine con il lazio',earthquake
+'terremoto in centro italia due scosse provocano il panico world',earthquake
+'terremoto in centro italia sale a 159 morti bilancio delle vittime protezionecivile',earthquake
+'terremoto in ciociaria fortissima scossa',earthquake
+'terremoto in fila per donare il sangue a sulmona scatta solidarieta tramite',earthquake
+'terremoto in italia per assistenza consolare i canadesi può chiamare 39 06 85444 2911 1 613 996 8885 sos',earthquake
+'terremoto in italia siamo colpiti da terremoto notizie in centro italia arriva con intensità superiore a 4',earthquake
+'terremoto in provincia di l aquila di 4 4 allarme tra la gente a roma e nel basso lazio',earthquake
+'terremoto individuata la faglia sul monte vettore immagini choc la montagna è spaccata ssaggeroit',earthquake
+'terremoto istituto nazionale geofisica oltre 200 scosse 15 tra magnitudo 4 e 5',earthquake
+'terremoto l aquila fuggi fuggi dal centro balla pure l auditorium abruzzoweb it',earthquake
+'terremoto l aquila oggi scossa tra 4 4 e 4 9',earthquake
+'terremoto l impegno dei vigili del fuoco di frosinone',earthquake
+'terremoto la montagna spaccata in due',earthquake
+'terremoto la nonna eroina così ha salvato i due nipoti sotto le macerie',earthquake
+'terremoto la sala operativa di crispoltore resterà aperta per l intera notte con equipaggio dedicato pronta a rispondere ad eventuali',earthquake
+'terremoto la situazione della viabilità nel centro italia a foligno treno per sfollati 420 posti letto',earthquake
+'terremoto la strada si spacca crolli danni e tanta paura vía screto',earthquake
+'terremoto la tragedia dell hotel roma di amatrice via',earthquake
+'terremoto lazio oltre 100 volontari della protezione civile a lavoro tg24 info',earthquake
+'terremoto m 6 5 le immagini della propagazione delle onde sismiche fino ad alpi e sicilia via',earthquake
+'terremoto magnitudo 6 devasta centro italia oltre 130 morti e 400 feriti terremoto magnitudo 6 devasta',earthquake
+'terremoto marsica m 4 4 la scheda con gli effetti macrosismici terremoto marsica scheda effetti',earthquake
+'terremoto morta marisol 18 mesi la mamma era scampata al sisma de l aquila via',earthquake
+'terremoto muoiono madre e figlio carbognano anche la tuscia conta le sue vittime sotto il terremoto che h',earthquake
+'terremoto napoli crepe su un edificio del vomero',earthquake
+'terremoto nel centro italia dalle acli un aiuto per le popolazioni colpite',earthquake
+'terremoto nel centro italia i danni al patrimonio artistico via',earthquake
+'terremoto nel reatino almeno 130 morti centinaia sotto le macerie molti bimbi tra le vittime paura per',earthquake
+'terremoto nelle nostre marche più di 25 000 sfollati',earthquake
+'terremoto nuova forte scossa alle 2342 altri crolli a visso terremoto nuova forte scossa alle 23 42',earthquake
+'terremoto nuove scosse di magnitudo 4 0 e 3 5 in umbria e nelle marche almeno 25mila sfollati',earthquake
+'terremoto nuovi crolli ad amandola a rischio il teatro la fenice tramite',earthquake
+'terremoto oggi macerata magnitudo 5 9 aggiornamenti in tempo reale st it',earthquake
+'terremoto oltre 200 eventi sismici dopo la fortissima scossa delle 7 40',earthquake
+'terremoto panico a roma evacuata la farnesina folla in strada retenews24 news on line',earthquake
+'terremoto panico a uno mattina timperi fa evacuare lo studio',earthquake
+'terremoto paura e danni in tutta la provincia di terni a ferentillo famiglie sfollate e crolli',earthquake
+'terremoto roma la polizia locale attivata con tutto il personale disponibile roma daily news',earthquake
+'terremoto scossa 6 5 norcia 30 10 2016 visso frane e allagamenti sulla valnerina video esclusivo',earthquake
+'terremoto scossa di magnitudo 4 4 tra l aquila e frosinone',earthquake
+'terremoto scossa di magnitudo 4 4 tra l aquila e frosinone nessun danno avvertita fino a roma e napoli',earthquake
+'terremoto scossa di magnitudo 4 9 all aquila avvertita anche in provincia di latina',earthquake
+'terremoto scossa di magnitudo 6 5 crolla basilica s benedetto a norcia gli sfollati sono circa 40 mila',earthquake
+'terremoto scossa impressionante l acqua della fontana ondeggia come in una tinozza',earthquake
+'terremoto scuole chiuse a viterbo',earthquake
+'terremoto senza fine centro italia devastato crolli e feriti magnitudo 6 5 quasi come',earthquake
+'terremoto sfollati hanno raggiunto il trasimeno corriere dell umbria',earthquake
+'terremoto si apre enorme spaccatura sul monte porche centro meteo italiano via',earthquake
+'terremoto solo oggi oltre 200 scosse ben 15 oltre magnitudo 4 la prima pagina',earthquake
+'terremoto staffetta dei vigili del fuoco nelle zone colpite domani verifiche nelle scuole cittadine',earthquake
+'terremoto strade chiuse nel centro italia',earthquake
+'terremoto striscione solidale a marassi',earthquake
+'terremoto terremoto torna la paura in tanti dormono in auto e scuole chiuse aggiornamenti prima pagina online',earthquake
+'terremoto tra i 4 7 ed i 4 9 epicentro vicino a l aquila poveracci',earthquake
+'terremoto tra l aquila e frosinone scossa di magnitudo 4 4',earthquake
+'terremoto un pensiero e un forte abbraccio a tutte le persone coinvolte nelle aree terremotate e una serata triste ma bisogna ripartire',earthquake
+'terremoto una sopravvissuta le pareti crollavano una dopo l altra',earthquake
+'terremoto via del vignola calcinacci in terra',earthquake
+'terremoto video in diretta scossa 6 5 richter su montevettore montegallo sibillini 30ott s',earthquake
+'terremoto vigilidelfuoco impagabili grazie persone straordinarie',earthquake
+'terremoto violenta scossa di 6 5 gradi in umbria avvertita a salerno',earthquake
+'terremotoitalia vicina con il cuore a tutte le vittime del terremoto ritrovata elisa riposa in pace angelo bello',earthquake
+'terribile terremoto in italia',earthquake
+'torna il terrore nell italia centrale terremoto di magnitudo 4 4 tra l aquila e frosinone',earthquake
+'tragedia enorme terremoto piangiamo i nostri fratelli',earthquake
+'ultim ora nuova scossa di terremoto in diretta tv dilaga la paura',earthquake
+'ultimora terremoto nuova scossa di magnitudo 6 2 canale50 by skytg24 via',earthquake
+'un pensiero per i nostri connazionali del centro italia colpiti da un terremoto che a portato morte e distruzione',earthquake
+'una mano da ognuno non guasta nessuno terremotocentroitalia terremoto norcia le4stagioninapoli',earthquake
+'una preghiera x tutte le vittime del tragico terremoto centroitalia buonanotte a tutti',earthquake
+'una pregriera per il moi secondo payesi l talia che dio te protega terremoto',earthquake
+'vicinanza a tutti i colpiti da questo ennesimo terremoto popolo stringiamoci ancora l uno con l altro',earthquake
+'vicino a voi tutti terremoto centroitalia',earthquake
+'violenta scossa di terremoto avvertita anche a roma',earthquake
+'l aquila e l incubo terremoto riattivati i centri raccolta per chi non vuole dormire in casa la repubblica',earthquake
+'terremoto paura per tre forti scosse nel centro italia scuole evacuate magnitudo tra 5 4 e 5 6 cronaca',earthquake
+'un pensiero speciale x coloro che stanno combattendo contro il freddo la neve e tutti i disagi che ne conseguono nelle zone terremoto forza',earthquake
+'preghiamo per le popolazioni provate dal terremoto dalla bufera di neve e dal gelo',earthquake
+'terremoto oggi magnitudo fino a 5 5 un morto in abruzzo cronaca',earthquake
+'l impotenza di non poter far niente per aiutare chi sta realmente soffrendo terremoto tristezza',earthquake
+'maltempo e terremoto morto un anziano e almeno diciotto comuni hanno frazioni isolate',earthquake
+'ciao maurizio ben trovato condivido pienamente il tuo tweet solidarietà alle vittime del terremoto buonanotte',earthquake
+'terremoto mi piange il cuore nel rivedere l abruzzo terra natale di mia madre in ginocchio abbraccio i miei cugini e parenti e non solo',earthquake
+'terremoto centro italia in ginocchio un morto nel teramano slavina su hotel forse vittime',earthquake
+'terremoto e neve emergenza in umbria scuole chiuse difficoltà sulle strade foto',earthquake
+'emergenzacastelli il comune di castelli te isolato da 48 ore impossibile contattare chi è rimasto urge intervento terremoto',earthquake
+'cmq oggi alla terza scossa da teramo sono scappato terremoto tremavatutto paura',earthquake
+'terremoto salvata una coppia di anziani a collecreta',earthquake
+'terremoto emergenzabruzzo abruzzo notte nelle casette per 300 persone a campotosto epicentro scosse oggi',earthquake
+'sono volate bottiglie bicchieri per terra secondo me la magnitudo è molto più alta di quella comunicata terremoto',earthquake
+'terremoto oggi strage di animali allarme coldiretti quotidianonet',earthquake
+'centroitalia flagellato da maltempo neve e nuove scosse di terremoto spero che tutti questi disagi finiscano presto',earthquake
+'terremoto crollano le stalle situazione drammatica per gli allevatori terremoto crollano le stalle',earthquake
+'news terremoto hotel rigopiano al gran sasso secondo testimoni ci sarebbero 3 dispersi',earthquake
+'ultima ora nuova forte scossa di terremoto poco fa aumenta la disperazione',earthquake
+'apocalisse abruzzo terremoto neve e esondazioni la regione è in ginocchio',earthquake
+'terremoto paura nel pescarese crolla tetto di un supermercato',earthquake
+'terremoto adesso magnitudo 4 2 provincia di l aquila in data 18 01 2017 alle località',earthquake
+'mi dispiace tanto x te e x voi tutti siete così provati spero smetta sia terremoto che il maltempo buonanotte con un forte abbraccio',earthquake
+'ora che c è tutta questa gente che sta soffrendo sotto la neve ed il gelo per la paura del terremoto sembra tutto così superfluo vi penso',earthquake
+'terremoto nelle marche 21 000 case senza elettricità 70 frazioni isolate e neve fino a 4 metri dire it',earthquake
+'terremoto centro italia in ginocchio un morto nel teramano slavina su hotel forse vittime',earthquake
+'repubblicait terremoto paura a roma evacuati edifici pubblici e scuole riaperte metro a b e b1',earthquake
+'terremoto un morto nel teramano slavina su hotel si temono vittime testimoni tre dispersi ansa news',earthquake
+'terremoto in centro italia la diretta neve e scosse un morto e un disperso valanga su',earthquake
+'apocalisse abruzzo terremoto neve e esondazioni la regione è in ginocchio abr24 news',earthquake
+'terremoto oggi magnitudo fino a 5 5 un morto in abruzzo cronaca',earthquake
+'terremoto chiusi uffici pubblici dell aquilano abruzzo ansa it',earthquake
+'terremoto e neve non lasciamoli soli dov è lo stato che chiede solo i voti',earthquake
+'l abruzzo è in ginocchio terremoto',earthquake
+'un abbraccio agli amici che oggi hanno tremato la prova è grande ma voi lo siete di più coraggio terremoto terremotocentroitalia',earthquake
+'porca puttana che scossa di terremoto',earthquake
+'cazzo che scossa terremoto',earthquake
+'nuovo terremoto di magnitudo 2 3 ml profondità 14 4 km in zona 4 km se balsorano aq fonte ingv',non-earthquake
+'terremoto in nuova guinea scossa di magnitudo 6 0 terremoto nuova guinea scossa',non-earthquake
+'oggi è venerdì 17 e in calabria sono arrivati salvini e il terremoto coincidenze calabria salvini terre',non-earthquake
+'stima provvisoria terremoto mag tra 2 8 e 3 3 ore prov zona cosenza',non-earthquake
+'terremoto in calabria a papasidero cosenza di magnitudo 3 3 ecco qui i dettagli',non-earthquake
+'terremoto calabria scossa in provincia di cosenza epicentro a papasidero mappe e dati terremoto calabria scossa',non-earthquake
+'lieve terremoto m2 2 epicentro 2 km e antillo me alle 09 28 36 08 28 36 utc',non-earthquake
+'in calabria ieri è arrivato selfini stanotte il terremoto ora dovrebbe toccare alle locuste no',non-earthquake
+'terremoto calabria possibili altre scosse',non-earthquake
+'terremoto calabria venerdì 17 oppure',non-earthquake
+'sti cazzo de terremoti sempre de notte terremoto ingv',non-earthquake
+'la logica conseguenza della cenetta calabrese di di ieri terremoto',non-earthquake
+'terremoto raga ma che palle sto cazzo di terremoto è finito da 12 ore nessun danno niente di neinte e ancora in tendenza è e madonna',non-earthquake
+'terremoto giurerei d aver sentito una scossetta 15 min fa mah',non-earthquake
+'lieve terremoto m2 2 epicentro 5 km sw crognaleto te alle',non-earthquake
+'perché ora si fa a gara a chi ha sentito il terremoto boh andiamo bene',non-earthquake
+'terremoto stanotte dopo la scossa in calabria anche in sicilia in provincia di enna epicentro vicino troina scossa di t',non-earthquake
+'ieri sera c è stato un modesto terremoto in calabria quello grosso sarà il 26',non-earthquake
+'mi chiedo se c è un piano per dare ricovero alle persone che questa notte si vedranno costrette a dormire fuori casa p',non-earthquake
+'dopo aver sentito la scossa di terremoto questa notte chiudere occhio è stato praticamente impossibile direi che la g',non-earthquake
+'newsicilia terremoto non si fermano le scosse nella nostra isola',non-earthquake
+'comunque tutto bene noi il terremoto lo abbiamo sentito pochissimo',non-earthquake
+'terremoto stanotte scossa in calabria ',non-earthquake
+'terremoto terremoto in sicilia a troina enna di magnitudo 2 7 ecco qui i dettagli',non-earthquake
+'forte scossa di terremoto nella notte in provincia di catanzaro forte scossa terremoto nella',non-earthquake
+'a catanzaro tutto bene terremoto',non-earthquake
+'terremoto appena percepito a cosenza',non-earthquake
+'lieve terremoto m2 1 epicentro costa siracusana siracusa',non-earthquake
+'lieve scossa di terremoto cronaca terremoto alberobello epicentro 16gennaio',non-earthquake
+'lieve terremoto m2 0 epicentro 7 km w cortino te ',non-earthquake
+'terremoto puglia',non-earthquake
+'un magnitudo 2 2 epicentro a 11 km da locorotondo ',non-earthquake
+'terremoto scossa di magnitudo 2 5 a bronte catania terremoto scossa magnitudo bronte',non-earthquake
+'lieve scossa di terremoto con epicentro ad alberobello di 2 2 gradi comuni interessati dall evento sono stati alberobello noci putignano locorotondo castellana grotte in provincia di bari cisternino e fasano in provincia di brindisi e martina franca e crispiano',non-earthquake
+'terremoto alberobello scossa di magnitudo 2 2 terremoto alberobello scossa',non-earthquake
+'lieve scossa di terremoto avvertita in puglia dati e mappe lieve scossa terremoto avvertita',non-earthquake
+'lieve scossa di terremoto ad alberobello bari immagine fonte',non-earthquake
+'bari lieve scossa di terremoto ad alberobello magnitudo di 2 2 puglia',non-earthquake
+'terremoto lieve scossa epicentro a quattro chilometri da alberobello bari immagine fonte',non-earthquake
+'nuova scossa di terremoto ai piedi dell etna brusco risveglio nella notte',non-earthquake
+'lieve terremoto m2 2 epicentro 4 km alberobello',non-earthquake
+'debole terremoto m2 5 epicentro 3 km sw bronte ct',non-earthquake
+'lieve terremoto m2 0 epicentro 4 km e accumoli ri',non-earthquake
+'un ora fa terremoto 2 2 a agnosine',non-earthquake
+'toscana scossa di terremoto di magnitudo 3',non-earthquake
+'terremoto alle 20 04 epicentro abetone cutigliano magnitudo 3 0',non-earthquake
+'terremoto in toscana scossa di magnitudo 3 in provincia di pistoia terremoto toscana scossa magnitudo',non-earthquake
+'basta una scossa di terremoto per farci capire il valore della vita',non-earthquake
+'terremoto in toscana scossa di magnitudo 3 0 in provincia di pistoia terremoto toscana scossa',non-earthquake
+'scossa di terremoto magnitudo 3 0 in provincia di pistoia scossa terremoto magnitudo',non-earthquake
+'scosse di terremoto nel pistoiese e a lucca scosse terremoto pistoiese lucca',non-earthquake
+'mi spiace per chi ha sentito il terremoto spero stiate tutti bene nonostante la paura',non-earthquake
+'24 min fa terremoto 2 2 a ello ',non-earthquake
+'nuovo terremoto di magnitudo 2 2 ml profondità 12 3 km in zona 1 km e ello lc fonte ingv',non-earthquake
+'lieve terremoto m2 2 epicentro 1 km e ello ',non-earthquake
+'doppia scossa di terremoto in toscana',non-earthquake
+'e due terremoto',non-earthquake
+'leggero terremoto m3 0 epicentro 2 km nw cutigliano pt alle',non-earthquake
+'debole terremoto m2 4 epicentro 6 km e bagni di lucca lu alle',non-earthquake
+'ogni tanto il cielo s inventa una scusa per accarezzare il mare terremoto nessun danno ma tanta paura gargano belli',non-earthquake
+'terremoto prosegue lo sciame in calabria la crisi sismica è davvero uno scenario possibile solo oggi in calabria si sono verificate cinque scosse di terremoto tutte con epicentro ad albi nel catanzarese ed una a savelli nel crotonese',non-earthquake
+'solo il terremoto ci mancava non ci facciamo mancare niente',non-earthquake
+'per fortuna niente danni earthquake terremoto gargano',non-earthquake
+'ma che cazzo sta succedendo terremoto è in tendenza un giorno sì e l altro pure che ansia',non-earthquake
+'terremoto foggia scosse improvvise le zone coinvolte terremoto foggia scosse',non-earthquake
+'anche oggi scosse di terremoto una al giorno ormai',non-earthquake
+'terremoto a carpino sul gargano l 145 segnalazioni non si registrano danni',non-earthquake
+'ero talmente distrutta che non ho sentito il terremoto eppure carpino è poco dopo ischitella quindi avremmo dovuto sentirlo',non-earthquake
+'l ho sentito mentre dormivo credevo di essermi sbagliata e di aver sentito solo dei rumori invece era il terremoto',non-earthquake
+'nuovo terremoto di magnitudo 2 0 ml profondità 9 2 km in zona 3 km ',non-earthquake
+'lieve terremoto m2 2 epicentro 6 km urbino ',non-earthquake
+'nuovo terremoto di magnitudo 2 5 ml profondità 5 9 km in zona slovenia',non-earthquake
+'nuovo terremoto di magnitudo 2 1 ml profondità 9 1 km in zona 3 km',non-earthquake
+'lieve terremoto m2 1 epicentro 3 km e rivarolo del re ed uniti ',non-earthquake
+'terremoto prosegue lo sciame sismico nel catanzarese registrate 3 scosse qui terremoto sciamesismico calabria cn24tv',non-earthquake
+'beati a voi che dormite bene la notte terremoto',non-earthquake
+'stanotte nuove scosse di terremoto nell alessandrino',non-earthquake
+'finanziamento di intesasanpaolo a sirmax cinque milioni di euro per le plastiche da riciclo sasanpaolo',non-earthquake
+'non duraun la mia solitudine senza di te perchè ero solo accanto a te untemaalgiorno',non-earthquake
+'ssere stata mia amica e compagna d avventure qua e l in giro per l italia da te ho imparato a non essere iperprotettiva e a lasciare che le cose facciano il proprio corso',non-earthquake
+'mah io spero che il porno venga preso per quello che intrattenimento e basta per lacultura della contraccezione invece credevo fossimo ormai a un buon livello di comunicazione e informazione e invece cos non',non-earthquake
+'887 condomini e l ascensorista sona a me che c ho r cornetto nbocca mannaggia i vostri padri',non-earthquake
+'ti sbagli e ti chiedo secondo te con un milan che cerca di lotter per i vertici te tieni rebic oppure punti a qualcun altro in panchina questo non ci sta lotta solo se sa di essere titolare falloso rischia di lasciarci 1 in campo',non-earthquake
+'nave delle armi l ufficiale della bana agenti turchi a bordo scortavano razzi divise esplosivi e carri armati nowar via secoloxix',non-earthquake
+'arriva il musical di bob marley a londra nel 2021 la sceneggiatura scritta da quello di rocketman non male come inizio sical',non-earthquake
+'ora ricambio s ci sono stata ora a gennaio',non-earthquake
+'pataasan pride a hahahahsjsksk',non-earthquake
+'a mensa sbobba senza glutine na schifezza',non-earthquake
+'posso essere sincera a livello personale proprio sono molto demoralizzata',non-earthquake
+'ahahhh',non-earthquake
+'bella',non-earthquake
+'amore a cappella',non-earthquake
+'lotito prova a mettere i piedi per terra per continuare a costruire ssl lazio dichiarazioni corrieredellosport',non-earthquake
+'2 grandi giocatori vengono da voi e non da altri il barcellona ha comprato de jong per 75 milioni pensi che se realmente l avessero voluto avrebbero fatto molta fatica a metterne sul piatto 25 tutti volevano eriksen come le offerte da 100 mln per skrjniar mai arrivate',non-earthquake
+'buongiorno bruna gioioso martedì anche a te',non-earthquake
+'brescia diego lopez juventus in crisi dobbiamo pensare a noi per arrivare al risultato',non-earthquake
+'praticamente qualsiasi morto viene da fuori fa la differenza in questa decadente serie a tranne lozano',non-earthquake
+'fratelli scomparsi a dolianova sigilli all auto del vicino',non-earthquake
+'vedo che sei di milano vai spesso a trans',non-earthquake
+'perchè non ho mai letto una cosa cos scritta da un presidente di serie a chi sa solo di calcio non sa niente di calcio s twitter com redsox status 1229438780161044480',non-earthquake
+'cammino dei fari da malpica a finisterre',non-earthquake
+'la mia non rabbia magari lo fosse avrei la voglia di urlare invece no la delusione ti fa tenere tutto dentro fino a farti scomparire',non-earthquake
+'insomma questo salvini vuole sempre stare in prima linea per farsi notare pure con l aborto che non cosa sua e continua a criticare e un vizio',non-earthquake
+'buongiorno a te vaentino',non-earthquake
+'gli starebbe bene a cairo',non-earthquake
+'buongiorno a te',non-earthquake
+'molto probabile la collega di giocatore c è a giugno si ragiona per chiudere con il brescia',non-earthquake
+'certo che scrivici a commercialess it e dallaviaeprendilaanoleggio',non-earthquake
+'a4 milano brescia code a tratti causa traffico intenso tra svincolo monza km 139 e a4 svincolo viale monte ceneri incrocio viale certosa km 126 4 in direzione torino dalle 06 32 del 18 febbraio 2020',non-earthquake
+'ecco stai a vedere mimmo che ci rovina la dolcezza del termine amorosa',non-earthquake
+'punterei sulla cultura dell anticoncezionale un uso della pillola o simili eviterebbe il ricorso a questa terribile pratica peccato che la chiesa che condanna l aborto condanni pure gli anticoncezionali',non-earthquake
+'caldoro va benissimo nn ha osato opporsi ne a cosentino chiedendogli i danni x il dossier contro ne alla gentaglia che teneva in giunta e con i media a 90 che sorvolavano sui nomi pubblicati su manifestini immediatamente rimossi caldoro unitivo ma soprattutto nn',non-earthquake
+'non ti permettere di ascrivere me a gruppi pensa ai gruppi tuoi di dubbia autenticità poi ti hanno sciacquato la cervice indicandoti il complotto degli ideatori di renzi',non-earthquake
+'purtroppo uno dei motivi della depressione che pu venire a una donna è proprio questo a volte',non-earthquake
+'buongiorno a tutti un marted lieto e gioioso a chi riposa o lavora intanto il piacere di un caffè che se in compagnia duraun po di più',non-earthquake
+'ma il capo senza molto competenze o la donna che sta conquistando il capo a non averne va bene la sintesi ma almeno le virgole',non-earthquake
+'bambini andate a giocare nel vostro giardino d',non-earthquake
+'diglielo un pò a sto qua',non-earthquake
+'sempri squa sindaco non la racconta giusta non a causa sua se sono diminuite le slot perchè non ascoltate il settore',non-earthquake
+'perchè arabo e ungherese sono spettacolari tanto meglio il tedesco fidati',non-earthquake
+'non ha senso perchè si conoscono da pochi mesi non ha senso perchè le sue relazioni durano da natale a santo stefano non ha senso tanto meno mandare a monte anni e anni di carriera per una ragazza che poi anche se diventasse sconosciuto b comunque sia bella campa comunque',non-earthquake
+'si salvini il più oso giornale in auge che rappresenta la nuova novella 2000 del gossip politico di questi anni rappresentano il coglionavairus dell odio che questi radical chic di stanno diffondendo nella societ italiana',non-earthquake
+'lei una delle ragioni per cui ho cancellato il mio abbonamento a la repubblicauna delle non vorrei si montasse troppo la testa sulla sua propria arguzia',non-earthquake
+'buona settimana a tutti dalle 10 alle 12 ondacalabra programmaradiofonico su radio antennafebea qualcosa che sar dentro di te per sempre reggio e messina fm100 3 e 100 6 provincia',non-earthquake
+'se chi deve contrastare le destre è l attuale maggioranza non vedo differenze nessuna battaglia di civilt e nessun segno di discontinuità ius soli testamento biologico legge minniti orlando leggi sicurezza salvini mi limito a questi',non-earthquake
+'che rottura con questa storia che bella thorne non si lava come fate a dirlo se non le state vicino poi non tutti vogliono lavarsi i capelli ogni giorno perchè basta molto meno per essere puliti quella di oggi diventata un ossessione',non-earthquake
+'oggi studio senza interruzioni così per le 20 30 davanti a youtube per vedere hs',non-earthquake
+'perchè queste bestie sono abituate a non fare niente sono abituate a spacciare a fare soldi facili non gli piace lavorare inoltre violentano fino a 15 anni fa quando mai si visto un nigeriano tra i passanti aggirarsi con un ascia',non-earthquake
+'si chiama anna wolf puoi trovarla su instagram',non-earthquake
+'e a prescindere da tutto una bella dose di mazzate ristabilisce gli equilibri',non-earthquake
+'ci mancherebbe anch io non giudico nessuno purtroppo ho casi vissuti di aborti vicino a me e le assicuro fatti con totale leggerezza forse sono sensibile al tema e non sono troppo obiettivo buona giornata',non-earthquake
+'15 giorni di tempo dopo decarolis',non-earthquake
+'ho appena inviato una cartolina a seppeconteit per ricordargli la grave crisi climatica che stiamo vivendo dobbiamo agire ora per la azioneclimatica',non-earthquake
+'che cosa vorresti chiedere a sergio',non-earthquake
+'eh te credo emiliano era quello che si opponeva a una scelta strategica come la tap perchè avrebbe distrutto l ecosistema',non-earthquake
+'qui in sicilia le automobili camminano come avessero gambe e non vengono guidate maportate ma tu sei capace a portare la macchina automobile duraun po la confusione ma poi ti abitui 18febbraio',non-earthquake
+'cashback da msi compra un bundle hardware e ottieni sino a 100 di rimborso',non-earthquake
+'grazie a',non-earthquake
+'anche oggi non mi sono svegliata magra e figa torno a dormire',non-earthquake
+'latest ultra exclusive pagani a tribute to imola',non-earthquake
+'apple non raggiunger gli obiettivi previsti nel secondo trimestre a causa del virus pcexpander cybernews android samsung lg nokia huawei honor smartphone apple iphone iliad wind tre vodafone homobile coopmobile tim kenamobile telefon',non-earthquake
+'a me st simpatica',non-earthquake
+'mah la moglie l ha mollata divorzio la forma fisica l ha mollata sovrappeso l universit l ha mollata niente laurea in 16 anni ho dimenticato qualcosa ah gi si autodefin nullafacente a 20 anni scarsi la dignit non l ha mollata quella no non l ha mai avuta',non-earthquake
+'frasedelgiorno non siamo esseri senza senso bensì anime in tour collegate da un filo divino a giocarci il nostro destino quotesaboutlife quotes writers poetry planet artevarie arte life 18febbraio',non-earthquake
+'spesso ci chiedono durante i nostri corsi come gestire e distribuire il carico in uno zaino oggi vi presentiamo una importante indicazione di massima a riguardo tenendo presente questa indicazione sarete gi a met dell opera nella risoluzione della problematica sos2012',non-earthquake
+'il pentagono affida il progetto multimiliardario jedi a microsoft ma bezos non ci sta e fa bloccare tutto da un giudice pcexpander cybernews tecnologia tecnology cybersecurity nonstopnews apple microsoft',non-earthquake
+'ho 7 5 su 25 punti a francese',non-earthquake
+'itinera cus ad maiora rugby 1951 all albonico arriva un altro convincente successo per la maschile di serie a',non-earthquake
+'con wind tre potete gi prenotare galaxy s20 s20 ultra 5g a rate senza anticipo e con le galaxy buds pcexpander cybernews android samsung lg nokia huawei honor smartphone apple iphone iliad wind tre vodafone homobile coopmobile tim',non-earthquake
+'sempre a infrangere i sogni altrui dovrebbero farci uno script a riguardo e farlo produrre ad amazon',non-earthquake
+'il 12 e 13 marzo si svolge a milano la 25esima edizione del convegnostelline il principale appuntamento per i bibliotecari italiani la beic sar presente e nel frattempo vi accompagna fino all evento con un gioco',non-earthquake
+'a te bellissima',non-earthquake
+'ciao per verificare la tua posizione e a tutela dei tuoi dati personali ti chiediamo di scriverci un dm con i seguenti dati preventivo o polizza nome e cognome localit di residenza data di nascita codice fiscale e recapito telefonico comunicato alla compagnia',non-earthquake
+'diablo e overwatch riceveranno una serie animata a testa pcexpander cybernews android samsung lg nokia huawei honor smartphone apple iphone iliad wind tre vodafone homobile coopmobile tim kenamobile telefonia',non-earthquake
+'questa un area dove decine di migliaia di persone in fuga da idlib pensavano di trovare sicurezza a sarmada da due settimane stiamo supportando le nuove famiglie sfollate',non-earthquake
+'sardegna una valigia sospetta e scatta l allarme bomba a oristano',non-earthquake
+'il csm apre una pratica a tutela di gratteri e lupacchini rischia il trasferimento corriere della calabria',non-earthquake
+'il bicameralismo paritario non sar mai un sistema efficiente fu scelto proprio per favorire rappresentativit a discapito della governabilit era l epoca dei blocchi contrapposti si temevano fu la non scelta che ci ha portati al consociativismo',non-earthquake
+'stefaniacraxi fu la fiducia esattamente come per sconi anche per craxi a dare appigli sono due uomini buoni portaaporta i buoni si fidano eccessivamente',non-earthquake
+'selena gomez non ve la meritate fanculo ha messo a tacere tutti i love her',non-earthquake
+'ecco un brano per te mille giorni di te e di me di claudio baglioni',non-earthquake
+'sona interessante il fatto che tu vada a genio a tutti però può significare una cosa sei falso oppure un tipo simpatico che sa farsi i cazzi suoi non ti conosco e non posso saperlo',non-earthquake
+'cio sto andando a dormire dopo aver ascoltato quel work of art di rare e mi sveglier con una canzone nuova di halsey oggi ho proprio vinto',non-earthquake
+'si mi ha fatta piangere per una giornata intera',non-earthquake
+'caro biagio a me sembra che tu non sia obiettivo ammettiamo pure infatti che il modus agendi di tolli infastidisca qualcuno pu essere ms lui non offende nessuno in maniera gratuita e volgare in questi giorni ho visto attacchi beceri e codardi da parte di intere schiere',non-earthquake
+'ogni volta che ho provato a fare un blog su github con jekyll mi sono sempre stufato prima e ho lasciato tutto con i template di default altroch poi oh sono un biotecnologo io mica un programmatore',non-earthquake
+'alterno a tua prima',non-earthquake
+'l altro giorno l ho sognata e per un certo senso è stato bello ma per un altro no perchè anche nel sogno non riuscivo a dirle niente volevo parlare con lei ma ero come bloccata non so se mi piace davvero ma comunque non riesco a non pensare a lei',non-earthquake
+'sense8 shameless fleabag dr house sex and the city da premettere che non sono quelle che io reputo meglio fatte a parte sense8 ma che appunto mi hanno cambiata di pi',non-earthquake
+'in quel momento ho saputo che la scala sociale si era definitivamente ribaltata il male che mi ha fatto e non solo a me e la falsit che ha sempre proposto le sono tornate indietro con gli interessi and that s how regina george died',non-earthquake
+'teste di cazzo tanto per cominciare come faccio a andarli a prendere e portarli a casa mia se nemmeno possono sbarcare',non-earthquake
+'il periodo che sto vivendo da qualche anno a questa parte lo ricorderò sempre come uno dei più brutti della mia vita',non-earthquake
+'si ma una rivoluzione del genere a gennaio non si era mai vista boh a meno di piccole squadre che devono salvarsi',non-earthquake
+'molise le aziende denunciano la grave situazione delle imprese impegnate nella ricostruzione post terremoto i pagamenti',non-earthquake
+'non sono riuscito a trovare riferimenti nemmeno su drittoerovescio se qualcuno li reperisce e li rende disponibili ci si pu attivare',non-earthquake
+'terremoto cuppi nel pd tensioni anche a marzabotto rossi scelta del segretario',non-earthquake
+'un soccorritore ai giovani vi porterei con me a vedere quando inietto morfina per farvi capire il male che vi fate',non-earthquake
+'a me non piaciuto affatto ci che ha detto mi sembrato molto maleducato',non-earthquake
+'cioe wtf ho fatto giorni a stare davanti al pc senza scrivere due frasi e adesso cos dal niente so stronza',non-earthquake
+'a me mi da l idea che sereni fa di tutto x non respingere la palla che entra cosa ne pensate riguardate con calma',non-earthquake
+'va di moda qualsiasi cosa succeda anche un terremoto è colpa sua',non-earthquake
+'domani mattina mi sveglio e studio alle 2 vengono le bimbe e alle 5 vado dall altra alle 7 torno a casa grazie a dio',non-earthquake
+'ma cos hanno nel cervello io non arrivo a capire pazzesco',non-earthquake
+'introdurranno anche la pena di morte a mezzo impiccagione sulla pubblica piazza a monito per potenziali sovranisti e sale torture tipo kgb',non-earthquake
+'a matteo ma perchè non pensate a fare politica invece di cercare il modo di far arrestare il tuo omonimo e dai cos state solo facendo crescere i consensi serve una sana opposizione cos vi azzerate definitivamente',non-earthquake
+'verità oggettiva che raul gardini a botteghe oscure ci entrò con un miliardo e ne uscì a mani vuote ma il pool si girò dall altra parte due pesi e due misure questa ed sempre stata la magistratura italiana',non-earthquake
+'maddai allora con il protocollo firmato il 23 dicembre con il miur e con cui avete sospeso lo sciopero vi hanno preso per il fondelli o siete voi che oggi avete preso per i fondelli i lavoratori come con la manifestazione del 3 dicembre a manovra gi chiusa siate seri',non-earthquake
+'ho detto maiale carne di maiale fa male a tutti altri tipi di carne no',non-earthquake
+'caro padre enzo grande incitamento alla ricerca di nuovo slancio e sapore di gioia in ogni fase di vita e specie nei momenti difficili imparare a danzare e abbracciare la vita anche con la croce che ognuno non vorrebbe e cerca di evitare un enigma la vita dio padre ci salvi',non-earthquake
+'io che dopo esserci rimasta male tolgo i like a tutti',non-earthquake
+'questa giornata stata talmente giusta che fatico ad abbandonarla non penso che riuscir anche domani a fare uguale',non-earthquake
+'aspetta prova a girarti bene che non vedo',non-earthquake
+'e io come faccio a saperlo se scrivi programma protezione io penso a un programma di protezione non aiuti comunali non posso prevedere che tu hai sbagliato a scrivere mica la sto accusando sto dicendo che ci sta che la gente non le abbia creduto per come aveva scritto',non-earthquake
+'comunque wanyama a me schifo non faceva',non-earthquake
+'si dai raga ok la elia tollerabile fino ad un certo punto poi a na certa ha rotto si crede la madonna scesa in terra quando insopportabile gfvip',non-earthquake
+'ovvio con l assunzione massiccia di tutor a carico dello stato',non-earthquake
+'vabeh che non bisogna attaccarsi a queste cose stupide e superficiali come i like su instagram per se non me li mettete mai che amiki siete',non-earthquake
+'sto attraversando un periodo davvero stressante e stavo pensando di spostarmi sul privato per un po perchè mi ci vorrebbe una valvola di sfogo ma vorrei anche stare lontano dalle cattiverie che si dicono in questo social a prescindere dalle polemiche di questa sera',non-earthquake
+'s tanto in giro che mi fai sentire scema',non-earthquake
+'ho ascoltato tutto ha messo tutta s stessa in un album che non fa altro che rappresentarla a pieno il sound all apice della bellezza fantastico nuovo fresco moderno sono cos fiera di lei',non-earthquake
+'nel 2020 una situazione non insolita tutti concordi nel chiamarla sbagliata e preoccupante ma non cos insolita da madre mi sono abituata a sospendere il giudizio essendomi trovata io per prima in situazioni che mai avrei detto per quantomeno una scena cos insegna qualcosa',non-earthquake
+'scelta quasi impossibile da nc a w w naturalmente',non-earthquake
+'ci ha detto bene allora ps continuo a nn capire mmt',non-earthquake
+'ma esattamente a parte zorro che tipo di trauma infantile hai avuto',non-earthquake
+'stojoleen continuavo a chiedermi perchè ti chiamassi cinzia',non-earthquake
+'ci ubriachiamo fino a morire 435mila italiani vittime dell alcol in 10 anni peggio di droga e fumo',non-earthquake
+'questi vanno a fare i test qi dai rivenditori di materiali edili e scusate la franchezza',non-earthquake
+'collocato che ero di nuovo in malattia xch mi avevano danneggiato impianto come si fa a non esplodere come si fa a credere sia cos come pensare all egoismo di chi sapeva di chi ne stato testimone oltre che responsabile del silenzio come si pu accettare tanta vilt',non-earthquake
+'ssione non ti sopportavo ed ero convinta che fosse lo stesso per te mi sembravi uno molto superficiale conoscendoti meglio per ho cambiato idea e ti trovo molto dolce ok',non-earthquake
+'per dimenticare una giornata terribile una serie tv sigarette caff occhio ed orecchio a miamadre mia sorella sediovuole a letto e nella testa il rimbombo del dolore e la beffa dell ultima scoperta licenziata sz sapere che ero stata male dove mi avevano',non-earthquake
+'scusa sono lenta a formulare frasi ed esprimermi in pochi caratteri non ti stavo dando contro sul tuo pensiero in toto ma leggendo le risposte ho avuto l impressione che tu sminuissi il fatto che una dipendenza da porno non solo esiste ma difficile rendersi conto di averla',non-earthquake
+'shima te l avr detto s e no mezza volta per ci tengo a ricordarti che sono tanto affezionata a te e ti voglio un mondo di bene tienilo sempre a mente',non-earthquake
+'ma io direi si a prescindere da quel che vorrebbe fare a partire dallo sputarmi in un occhio al menarmi a sangue',non-earthquake
+'sjksjsjs i think it s from a porno',non-earthquake
+'ecco io ci son durato pochissimi giorni se vuoi passare a hugo che supporta tante belle cose che con jekyll github sono proibite sappi che estremamente indolore c un comando a prova di pigri per fare la conversione di contenuti io ci son passato e se vuoi chiedi pure',non-earthquake
+'appena collegata sul gfvip e twtter e ho capito tre cose 1 sono una cucuzzers 2 la elia sta sputtanando i ferragnez come se stesse a casa sua 3 ma che cavolo ci facevano quelle brasiliane dove si trovano gli ex del gf aggiornatemi',non-earthquake
+'incredibile selena riesce sempre a farmi sorridere il potere di questa donna',non-earthquake
+'craxi quello che non c nel film hammamet la lista della spesa delle tangenti tra case a n y e soldi alla tv dell amante nel film di amelio manca qualcuno che spieghi come quelle mazzette rimanessero soprattutto attaccate alle mani di chi le prendeva',non-earthquake
+'sono troppo felice perchè sono riuscita a scrivere ho fatto fuori quasi venti pagine ne avevo un sacco bisogno non me lo aspettavo ad un certo punto guardo nel vuoto ed ero tipo devo scrivere',non-earthquake
+'a pupila dela me da agonia',non-earthquake
+'alessio lamanna michela mangiatordi noemi barbieri simon simon elisa amati dobbiamo andarci a un concerto di ultimo',non-earthquake
+'i accidentally pinned a comment jsjdjd',non-earthquake
+'mi sono appena letta l articolo della bimba di 9 presa a cannate avete presenta la canna che male poi il papino la consolava amore ho dovuto frustarti non ti puoi togliere il velo senn non sei pi libera ora vieni da papino che ti metto la pomatina sulla bua',non-earthquake
+'come minimo dichiara guerra agli stati uniti alla russia ed alla cina non dimentichiamoci che da commissario dell ue ci ha portati in guerra nei balcani cosa che a noi non ce ne poteva fregare una beata minchia',non-earthquake
+'fiuk aprendendo a ter gosto por musica boa',non-earthquake
+'oggi un giorno speciale x me ho un amico caro a cui voglio bene',non-earthquake
+'sicuri che non ci siano metodi migliori per prendere voti da una platea senza perderne carrettate da un altra',non-earthquake
+'non lo vedo proprio non esiste se a agnelli nn riterrebbe opportuno prenderemcontemx il passato perchè mai dovrebbe scegliere un allenatore ultra avverso alla juve in passato',non-earthquake
+'neanche i peggiori pdioti sono scesi a tanto paragone con siri davvero indegno informarsi prima di parlare',non-earthquake
+'il torciculo fantastica luvana luca amoore non ridere di me e ivana al telefono luca nn riesce a camminare e gi risate',non-earthquake
+'ammesso che lo facciano davvero vorrei farvi notare che il mezzo miliardo a legislatura si traduce in 100mln l anno che nel bilancio di uno stato sono briciole questi sono solo dei buffoni',non-earthquake
+'che tenerezza quelli che pensano davvero che io creda a tutte le cazzate che mi dicono',non-earthquake
+'sounds se droppi qualche info o addirittura una nuova song entro la fine di maggio mi sentirai urlare fino al tuo studio it s a promise',non-earthquake
+'no ma leggete e poi venitemi a ri parlare difiducia nella magistratura tour court',non-earthquake
+'praticamente non ci credo ma tutto il malloppo stato finalmente pubblicato le due grandi novit sono state svelate e noi dell up siamo lieti di presentare ilnido e littlebirds la bacheca bubolii correte a vedere',non-earthquake
+'giro d italia a ravenna il comune ha pagato 85mila euro per ospitare la partenza di una tappa il 21 maggio scuole chiuse',non-earthquake
+'anche a me piacciono le canzoni di tish ma penso che giordana abbia qualcosa in pi non so mi arriva al cuore',non-earthquake
+'sassuolo a torino con i dubbi matri e locatelli scalpitano bourabia e djuricic scenario complesso',non-earthquake
+'sassuolo parla bourabia vogliamo vedere a che livello siamo contro squadre importanti come il torino',non-earthquake
+'seduta di allenamento a porte chiuse in vista della sfida contro il toro',non-earthquake
+'serie a roma juve affidata a massa torino sassuolo arbitra giacomelli',non-earthquake
+'io mi sono esaltata da me e il coinqui entrambi under 30 a parte tt che bel film da far vedere ai nostri bambini',non-earthquake
+'grazie a dio ci sono i rolling stones cazzo',non-earthquake
+'anda a mojarte y comprar esa muzzarella daleeee',non-earthquake
+'erica viene abbracciata da qualcuno anche solo per amicizia e subito parto ship gf16 poi la gente dice che lei che ci prova con tutto ma a me sa che non lei ad avere qualche problema e che shippabile con tutti',non-earthquake
+'bevi psiche e sii immortale amore non sar mai sciolto dal vincolo che lo unisce a te da oggi voi siete sposi per tutta l eternit apuleio',non-earthquake
+'su questo stateofplay non ci avrebbe scomesso nessuno causa il fatto che durasse solo 10 minuti ed invece sbam a caldo trailer con data del remake di medievil e trailer di ff7remake',non-earthquake
+'agostino qui fa come quelli che hanno messo alla gogna il sismologo per non aver previsto il terremoto con i giapponesi che ci guardavano come alieni e loro di terremoti se ne intendono',non-earthquake
+'perchè disturba sto fatto che fa a volte cos tish',non-earthquake
+'e vi giuro che sono a tanto cos da chiamare la polizia in borghese e farli arrestare',non-earthquake
+'guarda che sembra un regolamento di conti per debiti e sai quanti bambini sono stati uccisi a napoli dalla camorra quando salvini non era ancora ministro ma governava vla sinistra e poi de magistris cosa fa oltre ad organizzare la flotta per andare a prendere gli immigrati',non-earthquake
+'non che si possano dare risposte in assenza di domande mancolebasi',non-earthquake
+'al posto poter risparmiare le spese per tutti gli italiani voi cosa fate pensate a non votare il taglio dei parlamentari non siete piu credibili vergognatevi',non-earthquake
+'droga tanta droga hanno dovuto assumere per superare i vari shock che la vita li ha costretti a subire',non-earthquake
+'sara che io sono estraneo anche a me stesso o che mi concentro sul bello salvini se ti riferisci a lui per me non conta niente lo attacco certo ma consio dei suoi limiti persino come fascista',non-earthquake
+'in questi giorni ennesimo tentato uominicidio donna sfregia con l acido un ragazzo a legnano ribadisco che la vera emergenza sociale non il femminicidio e le scarpette rosse di',non-earthquake
+'sisi hanno un po criticato anche erica perchè si sta avvicinando a mila',non-earthquake
+'noleggio auto a londonderry risparmia il 20 sulle auto a noleggio situato sulle rive del fiume foyle derry una citt del 16 secolo al passo con il 21 secolo il',non-earthquake
+'biga rapetti a nova ol coach do brown spiders por siqueira9',non-earthquake
+'questo freddo a maggio un po too much voi che dite',non-earthquake
+'ancora a nyc deve andare in cina',non-earthquake
+'supersube video a yt me urge una puta rifa',non-earthquake
+'sogno di enrico andava in giro con lino banfi in un paese simile a bassano in quella casa serve un medico in famiglia gf16',non-earthquake
+'bravi diteglielo a questo sciacallo travestito da agnellino',non-earthquake
+'ti ho gi risposto proprio sulla stessa cosa oltre a ribadire che non esiste nessuna alleanza lascia la boccia di vino che stai a sparare minchiate e il bello che ne parli te che il tuo partito di truffatori politici se la faceva con il pluri condannato e indagato verdini',non-earthquake
+'annamo bene la nipote di uno dei pi grandi poeti italiani crede cheirascibile si scriva irrascibile er poro fabrizio star a fa la trottola nella tomba gf16',non-earthquake
+'beh pensa che la stessa protezione civile che di comunicazione in emergenza dovrebbe essere l esperta ha cominciato a lavorare sulla comunicazione social solo dopo il terremoto del 2016 e comunque ha ancora grossi limiti e difficoltà purtroppo il problema è proprio la pa',non-earthquake
+'insieme a noi il napoli che se milik la butta dentro all ultimo salutiamo anche klopp ergo finale di champions inter napoli',non-earthquake
+'se la vuoi vedere cos fai pure ma la realt che a daniele non gli frega nulla di martina e si visto sin dall inizio con lei ci vedo un altro tipo di ragazzo p s che sia chiaro io a daniele lo prenderei a calci nel culo da cinecitta fino alla flaminia',non-earthquake
+'stasera dopo una giornata cos bella voglio andare a letto augurandomi una cosa di sorridere sempre cos di poter essere sempre cos felice',non-earthquake
+'debole terremoto m2 6 zona macerata visso alle',non-earthquake
+'ti immagini facessero un app per avvertirti di un terremoto e le notifiche arrivassero con la vibrazione',non-earthquake
+'ma mi scusi signor klimt ha visto jolly blu il film degli 883 i protagonisti della canzone la regola dell amico le dico solo che la ragazza alessia merz a fine film limonano',non-earthquake
+'a volte come chiederee poi al racconto di una barzelletta oppure chiederne la spiegazione si brucerebbe l effetto comico ecco questa una di quelle volte continuare significherebbe bruciare le emozioni provate',non-earthquake
+'mi metto a letto e mi viene sete',non-earthquake
+'valzer di panchine in a allegri vola verso parigi valzer panchine allegri verso',non-earthquake
+'bimba ferita a napoli centinaia alla veglia di preghiera davanti al santobono bimba ferita napoli centinaia',non-earthquake
+'offetta a piaciere cinque euro',non-earthquake
+'powercouplebrasil mostra a mari e o dani na provaaaa',non-earthquake
+'si molto brava a cantare ma quando le prendono quei minuti di finto non sopportare giordana proprio',non-earthquake
+'ma non che si stanno a pass la roba in quella stretta sai com la tecnica di scambio quella',non-earthquake
+'matteo salvini se ne frega dal giubbotto pivert alla difesa di altaforte continua a lisciare il pelo al mondo fascistoide',non-earthquake
+'ahahahahhahahahahahahhahah ridicola a dei livelli altissimi',non-earthquake
+'okay che non arrivate a fine mese ma non dovete nemmeno impostare con arroganza pagamenti che tengono il veicolo riparato dalle multe che dipenda o un mese o una giornata quel pezzo di strada pubblico ed giusto che le persone vengano sanzionate se non pagano il grattino',non-earthquake
+'si ahreeeeee nonono xdxd pero no me gusta c pero si a sara dunya y paul',non-earthquake
+'per ancora pi bravo ad affabulare a raccontare i cazzi suoi che peraltro sono i cazzi di tantissimi ragazzi come lui senza per questo ergersi a stocazzo e senza avere chiss che vocabolario quindi non dormiteci su dategli i soldi e dategli un ascolto',non-earthquake
+'si parla sempre di fasci e quando li prendono a calci nel posteriore in realt conviene nascondersi dietro il buono il brutto e il fascismo',non-earthquake
+'credo di essere l unica a cui martina sta simpatica un personaggio lei ed erica sembrano due bambine con tutti i crismi positivi dell essere bambini gf16',non-earthquake
+'tienili una settimana in vaticano e vedrai che iniziano a stare sui coglioni pure a te',non-earthquake
+'salvini parla di drogati a chi si cura con la cannabis cannabis priva di thc ma scientificamente curativa pensasse a mandare in galera tutti quei politici ho indagati o condannati carcere duro e senza benefici xch loro fanno una cosa peggiore del delinquente comune',non-earthquake
+'siamo in democrazia bene salvini il ministro dell interno la trenta la ministra della difesa e i aeronautica e marina militare salvini lega dice porti chiusi per la sicurezza trenta m5s manda una nave militare a prelevare i clandestini fate le opportune considerazioni',non-earthquake
+'vedr il mio piccolino dal vivo non ci riesco a credere',non-earthquake
+'eu amo a tia djskjsskjddk',non-earthquake
+' abbiamo affidato questo sporco lavoro a un robot virtuale s s com b info3',non-earthquake
+'mano a netflix nunca erra sil luciferseason4',non-earthquake
+'news terremoto magnitude ml 1 5 ascoli piceno by ingv',non-earthquake
+'la mia risposta a giusto obbligare famiglie che fanno fatica ad arrivare a fine mese a comprare l auto nuova perchè all improvviso una legge dice che il loro diesel troppo inquinante e bisogna fermare il cambiamento climatico',non-earthquake
+'ma in quel momento quel silenzio si interruppe kun tremava da capo a piedi e non capiva se fosse l eccitazione o la paura a farlo stare in quel modo ma quando sent le mani di kun stringere le sue in una presa rassicurante ogni sua angoscia sembr svanire',non-earthquake
+'ma non sapeva cosa guard la fila di passeggeri entrare dalla porta posteriore dell aereo piccole formiche intente a entrare nel formicaio si chiede se tra quelle persone ci fosse qualcuno nella sua situazione qualcuno torturato da un silenzio che non pensava di meritare',non-earthquake
+'non riesco a dormire perchè ancora non riesco a smettere di pensare a qua to sia stato bello detective pikachu send help perchè devo dormire',non-earthquake
+'tish brava ma a volte mi urta',non-earthquake
+'verso l europa stavolta e sarebbe tornato a casa probabilmente solo tra una settimana ma la prospettiva di mettere piede in casa dopo tanto tempo per la prima volta non lo entusiasm era successo qualcosa in quell ultimo periodo qualcosa che riguardava namjoon e che gli',non-earthquake
+'dopo aver dato un ultima occhiata ai comandi kun usc dall aereo per prendere una boccata d aria fresca sentiva di averne particolarmente bisogno in quel momento e la fredda aria del mattino lo aiut a schiarire la mente per un attimo lo aspettava un lunghissimo volo',non-earthquake
+'a scioli no lo invitaron',non-earthquake

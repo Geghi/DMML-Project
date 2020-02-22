@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
+import main.resources.application.MainApp;
 
 public class ResultsController {
 	@FXML
@@ -17,7 +18,11 @@ public class ResultsController {
 	public void loadHomePage(ActionEvent event) {
 		try {
 			System.out.println("Loading Home Page ...");
-			Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("Home.fxml"));
+			FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("Home.fxml"));
+			Parent root = fxmlLoader.load();
+			HomeController homeController = (HomeController) fxmlLoader.getController();
+			MainApp.homeController = homeController;
+			
 			Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
 			Scene scene = new Scene(root);
 			window.setScene(scene);

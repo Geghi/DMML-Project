@@ -52,7 +52,7 @@
                   <HBox alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
                      <children>
                         <Button fx:id="stopButton" mnemonicParsing="false" onAction="#stopAnalysis" text="Stop" visible="false" />
-                        <Button fx:id="resultsPageButton" mnemonicParsing="false" onAction="#loadResultsPage" text="Results Page" visible="false">
+                        <Button fx:id="resultsPageButton" mnemonicParsing="false" onAction="#loadResultsPage" text="Results Page" visible="true">
                            <HBox.margin>
                               <Insets left="20.0" />
                            </HBox.margin>

@@ -1,14 +1,13 @@
 package main.resources.application;
 
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
-import weka.core.Instances;
-import weka.core.converters.DatabaseSaver;
+import java.sql.Timestamp;
 
 public class SQLManager {
 
@@ -21,13 +20,10 @@ public class SQLManager {
 	private Statement statement;
 	private ResultSet result;
 
-//	private String updateTweet = "UPDATE tweets SET Text=?  WHERE id = ?;";
-	private String selectionTweetText = "SELECT * FROM taggedtweets T;";
-	private String insertTweetText = "INSERT INTO `tweets`( `Text` ) VALUES (?);";
-	private String selectionTweetCheckText = "SELECT * FROM tweets T WHERE T.Text = ?;";
+	private String getLastDetected = "SELECT * FROM `earthquake` ORDER BY Timestamp DESC LIMIT 1";
+	private String insertEarthquake = "INSERT INTO `earthquake`( `Timestamp`, `Position`  ) VALUES (?, ?);";
 
-	private PreparedStatement selectionTweetStatement, selectionTweetCheckStatement, insertTweetStatement,
-			updateTweetStatement;
+	private PreparedStatement insertEarthquakeStatement, getLastDetectedStatement;
 
 	public SQLManager(String i, int p, String dbName, String dbUser) {
 		try {
@@ -38,57 +34,43 @@ public class SQLManager {
 			connection = DriverManager.getConnection("jdbc:mysql://" + ip + ":" + port + "/" + db_name, db_user, "");
 			statement = connection.createStatement();
 
-//			updateTweetStatement = connection.prepareStatement(updateTweet);
-			selectionTweetStatement = connection.prepareStatement(selectionTweetText);
-			insertTweetStatement = connection.prepareStatement(insertTweetText);
-			selectionTweetCheckStatement = connection.prepareStatement(selectionTweetCheckText);
+			insertEarthquakeStatement = connection.prepareStatement(insertEarthquake);
+			getLastDetectedStatement = connection.prepareStatement(getLastDetected);
 
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 	}
 
-	public void insertTweet(String tweet) {
+	public void addDetectedEarthquake(Timestamp timestamp, double lat, double lon) {
 		System.out.println("INSERT START");
 		try {
-			insertTweetStatement.setString(1, tweet);
-			int i = insertTweetStatement.executeUpdate();
+			String position = lat + " " + lon;
+			if (lat == 0 && lon == 0) {
+				position = "NOT FOUND";
+			}
+			insertEarthquakeStatement.setTimestamp(1, timestamp);
+			insertEarthquakeStatement.setString(2, position);
+			int i = insertEarthquakeStatement.executeUpdate();
 			System.out.println("Added " + i + " row");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 	}
 
-	// return true if tweet is not present in the database, false otherwise.
-	public Boolean check(String tweet) {
+	public long getLastDetectedEarthquake() {
+		long millis = -1;
 		try {
-			selectionTweetCheckStatement.setString(1, tweet);
-			result = selectionTweetCheckStatement.executeQuery();
-			if (!result.first()) {
-				return true;
+			result = getLastDetectedStatement.executeQuery();
+			if (result.first()) {
+				Timestamp time = result.getTimestamp("Timestamp");
+				millis = time.getTime();
 			}
-			return false;
-		} catch (Exception ex) {
-			ex.printStackTrace();
+			return millis;
+		} catch (SQLException e) {
+			e.printStackTrace();
 		}
-		return false;
-	}
-
-	
-	public void saveArffToDb(Instances data) {
-		try {
-			DatabaseSaver save = new DatabaseSaver();
-			save.setUrl("jdbc:mysql://localhost:3306/tweets");
-			save.setUser("root");
-			save.setPassword("");
-			save.setInstances(data);
-			save.setRelationForTableName(false);
-			save.setTableName("tweet");
-			save.connectToDatabase();
-			save.writeBatch();
-		} catch (Exception ex) {
-			ex.printStackTrace();
-		}
+		return millis;
 	}
 
 	// stop connection

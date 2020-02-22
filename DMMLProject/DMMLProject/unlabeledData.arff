@@ -1,0 +1,10 @@
+@relation New-Data 
+
+@attribute Tweet string
+@attribute Label {earthquake,non-earthquake}
+
+@data
+'ma tutte le nostre maggiori cariche dello stato dove sono ci vanno in ospedale a codogno nessuno di loro che abbia a',?
+'mi sento come quello delle intercettazioni post terremoto all aquila',?
+'mi ricorda il film 2012 quando il presidente usa alla tv diceva di non preoccuparsi in diretta terremoto distruttivo quando dicono di non preoccuparsi bisogna iniziare a peeoccupparsi',?
+'ma tutte le nostre maggiori cariche dello stato dove sono ci vanno in ospedale a codogno nessuno di loro che abbia a',?
