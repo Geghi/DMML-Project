@@ -1,13 +1,14 @@
 package main.resources.application;
 
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SQLManager {
 
@@ -20,7 +21,7 @@ public class SQLManager {
 	private Statement statement;
 	private ResultSet result;
 
-	private String getLastDetected = "SELECT * FROM `earthquake` ORDER BY Timestamp DESC LIMIT 1";
+	private String getLastDetected = "SELECT * FROM `earthquake` ORDER BY Timestamp DESC ";
 	private String insertEarthquake = "INSERT INTO `earthquake`( `Timestamp`, `Position`  ) VALUES (?, ?);";
 
 	private PreparedStatement insertEarthquakeStatement, getLastDetectedStatement;
@@ -56,6 +57,29 @@ public class SQLManager {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+	}
+	
+	public List<Earthquake> getEarthquakesList(){
+		List<Earthquake> list = new ArrayList<Earthquake>();
+		Earthquake earthquake = null;
+		
+		try {
+			result = getLastDetectedStatement.executeQuery();
+			while (result.next()) {
+				Timestamp time = result.getTimestamp("Timestamp");
+				String location = result.getString("Position");
+				String timeString = time.toString();
+				timeString = timeString.substring(0, timeString.length()-2);
+				earthquake = new Earthquake(timeString, location);
+				list.add(earthquake);
+				if(list.size() >= 10)
+					break;
+			}
+			return list;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return list;
 	}
 
 	public long getLastDetectedEarthquake() {

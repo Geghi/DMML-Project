@@ -17,9 +17,9 @@ public class MainApp extends Application {
 	final private String DB_USER = "root";
 	public static HomeController homeController;
 
-	private static final String CONSUMER_KEY = "puwJYKr63IJ1nbWUxojPUvDIF";
-	private static final String CONSUMER_SECRET = "LiliTjUMEdA0uFAKZlwmVEqJppRJOFk1xh4rD6gJT1QaMTs6tn";
-
+	private static final String CONSUMER_KEY = "Am8cum5F61sIBac6y0p9ohBrj";
+	private static final String CONSUMER_SECRET = "EBqOULEyNv8YYeItYz124YLMFbGnKGmzvY34X43jQDcQW38jSx";
+	
 	public static final TwitterScraper twitterScraper = new TwitterScraper(CONSUMER_KEY, CONSUMER_SECRET);
 			
 	private Stage primaryStage;
@@ -39,15 +39,12 @@ public class MainApp extends Application {
 			Parent root = fxmlLoader.load();
 			homeController = (HomeController) fxmlLoader.getController();
 
-			System.out.println(homeController);
-
 			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getClassLoader().getResource("css/DarkTheme.css").toExternalForm());
 			primaryStage.getIcons()
 					.add(new Image(getClass().getClassLoader().getResourceAsStream("Images/AppIcon.png")));
 			primaryStage.setScene(scene);
 			primaryStage.show();
-
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}

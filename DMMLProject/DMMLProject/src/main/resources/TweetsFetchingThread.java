@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
+import javafx.application.Platform;
 import main.resources.application.MainApp;
 
 public class TweetsFetchingThread extends Thread {
@@ -18,10 +19,14 @@ public class TweetsFetchingThread extends Thread {
 	@Override
 	public void run() {
 		try {
-			System.out.println("RUNNING");
+			System.out.println("START REAL TIME FETCHING...");
 			homeController.setStopRealTimeFetch(false);
 
 			while (homeController.getStopRealTimeFetch() == false) {
+				Platform.runLater(() -> {
+					homeController.messageLabel.setText("Fetching tweets");
+					homeController.messageLabel.setStyle("-fx-text-fill: white");
+				});
 				
 				resetHomeParameters();
 				// Start fetching
@@ -45,6 +50,10 @@ public class TweetsFetchingThread extends Thread {
 			}
 			homeController.setBeginButtonVisibility(true);
 			homeController.setStopButtonVisibility(false);
+			Platform.runLater(() -> {
+				homeController.messageLabel.setText("Waiting for tweets");
+				homeController.messageLabel.setStyle("-fx-text-fill: white");
+			});
 			System.out.println("Real time fetching stopped...");
 			
 		} catch (Exception ex) {

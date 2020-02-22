@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -20,6 +21,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
@@ -50,16 +52,14 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
 public class HomeController extends Thread {
 
 	@FXML
-	private Button beginButton, resultsPageButton, stopButton;
+	public Button beginButton, resultsPageButton, stopButton;
 
 	@FXML
-	private LineChart<Integer, Integer> sentimentGraph;
+	public Label messageLabel, earthquakeCounterLabel;
 
-	@FXML
+	private Thread fetchThread;
+
 	private TwitterScraper twitterScraper;
-
-	@FXML
-	private TextField topicField;
 
 	public double longitude, latitude;
 
@@ -92,10 +92,6 @@ public class HomeController extends Thread {
 		return this.currentDate;
 	}
 
-	public void resetEarthquakeCounter() {
-		this.earthquakeCounter = 0;
-	}
-
 	public void setStopRealTimeFetch(boolean bool) {
 		this.stopRealTimeFetch = bool;
 	}
@@ -124,8 +120,12 @@ public class HomeController extends Thread {
 		return this.earthquakeCounter;
 	}
 
-	public void setEarthquakeCounter(int earthquakeCounter) {
-		this.earthquakeCounter = earthquakeCounter;
+	public void setEarthquakeCounter(int count) {
+		this.earthquakeCounter = count;
+		Platform.runLater(() -> {
+			earthquakeCounterLabel.setText(String.valueOf(count));
+		});
+
 	}
 
 	public int getGeoCounter() {
@@ -176,7 +176,7 @@ public class HomeController extends Thread {
 	@FXML
 	public void beginAnalysis(ActionEvent event) {
 		try {
-			Thread fetchThread = new TweetsFetchingThread();
+			fetchThread = new TweetsFetchingThread();
 			fetchThread.start();
 
 			// To test a predefined dataset
@@ -290,6 +290,9 @@ public class HomeController extends Thread {
 
 			dataset = getDataFromArffFile("./unlabeledData.arff");
 			earthquakeCounter += countEarthquakes(dataset);
+			Platform.runLater(() -> {
+				earthquakeCounterLabel.setText(String.valueOf(earthquakeCounter));
+			});
 			System.out.println("Earthquake Counter: " + earthquakeCounter);
 
 		} catch (Exception ex) {
@@ -320,11 +323,19 @@ public class HomeController extends Thread {
 					count++;
 					if (count > warningThreshold) {
 						if (count > emergencyThreshold) {
+							Platform.runLater(() -> {
+								messageLabel.setText("An earthquake has been recognized!");
+								messageLabel.setStyle("-fx-text-fill: red");
+							});
 							System.out.println("An Earthquake has been recognized!");
 							emergency = true;
 							twitterScraper.setStop(true);
 							return count;
 						} else {
+							Platform.runLater(() -> {
+								messageLabel.setText("Possible earthquake recognized");
+								messageLabel.setStyle("-fx-text-fill: orange");
+							});
 							System.out.println("Possible earthquake recognized.");
 						}
 					}
@@ -437,6 +448,7 @@ public class HomeController extends Thread {
 		try {
 			twitterScraper.setStop(true);
 			stopRealTimeFetch = true;
+
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}

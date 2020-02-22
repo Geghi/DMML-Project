@@ -52,7 +52,7 @@ public class TwitterScraper {
 	public void findTweets(final String query) throws TwitterException, InterruptedException, ParseException {
 		homeController = MainApp.getHomeController();
 		setCurrentDate();
-		homeController.resetEarthquakeCounter();
+		homeController.setEarthquakeCounter(0);
 		Query twitterQuery = new Query(query);
 //		GeoLocation location = new GeoLocation(41.9, 12.5); // latitude, longitude
 //		twitterQuery.setGeoCode(location, 100, Query.KILOMETERS);
