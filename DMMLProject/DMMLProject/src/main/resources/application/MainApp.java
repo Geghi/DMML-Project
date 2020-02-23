@@ -17,8 +17,8 @@ public class MainApp extends Application {
 	final private String DB_USER = "root";
 	public static HomeController homeController;
 
-	private static final String CONSUMER_KEY = "Am8cum5F61sIBac6y0p9ohBrj";
-	private static final String CONSUMER_SECRET = "EBqOULEyNv8YYeItYz124YLMFbGnKGmzvY34X43jQDcQW38jSx";
+	private static final String CONSUMER_KEY = "consumer_key";
+	private static final String CONSUMER_SECRET = "consumer_secret";
 	
 	public static final TwitterScraper twitterScraper = new TwitterScraper(CONSUMER_KEY, CONSUMER_SECRET);
 			
