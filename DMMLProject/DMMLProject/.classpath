@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -16,5 +17,13 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/stefa/Desktop/javafx-sdk-13.0.1-20191212T160618Z-001/javafx-sdk-13.0.1/lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefa/Desktop/javafx-sdk-13.0.1-20191212T160618Z-001/javafx-sdk-13.0.1/lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefa/Desktop/javafx-sdk-13.0.1-20191212T160618Z-001/javafx-sdk-13.0.1/lib/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefa/Desktop/javafx-sdk-13.0.1-20191212T160618Z-001/javafx-sdk-13.0.1/lib/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefa/Desktop/javafx-sdk-13.0.1-20191212T160618Z-001/javafx-sdk-13.0.1/lib/javafx.media.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefa/Desktop/javafx-sdk-13.0.1-20191212T160618Z-001/javafx-sdk-13.0.1/lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefa/Desktop/javafx-sdk-13.0.1-20191212T160618Z-001/javafx-sdk-13.0.1/lib/javafx.web.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefa/Desktop/javafx-sdk-13.0.1-20191212T160618Z-001/javafx-sdk-13.0.1/lib/javafx-swt.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
