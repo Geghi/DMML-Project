@@ -4,19 +4,103 @@
 @attribute Label {earthquake,non-earthquake}
 
 @data
-'update 23 02 17 11 comacchio ferrara terremoto 16 40 1 m 3 1 dati e immagini ingv',?
-'news altra violenta scossa di terremoto tra iran e turchia tra saray e salmas',?
-'update 23 02 17 20 iran border armenia azerbaijan turkey turchia strong earthquake fuerte temblor sismo forte t',?
-'negli ultimi mesi abbiamo rischiato l alluvione la piena dell arno la terza guerra mondiale il coronavirus e last minut',?
-'ancora una volta ci stanno mostrando che gli italiani vengono sempre dopo arrivano navi d',?
-'adesso 23 02 16 50 mar adriatico ravenna terremoto 16 40 1 provvisorio m 2 5 0 2 in mare',?
-'meanwhile terremoto magnitudo 5 7 in iran 7 morti in turchia mondo ansa',?
-'detto da una come lei mi lascia tranquillo come quando era commissario per il terremoto parli meno e lavori di più',?
-'terremoto a ferrara scossa di magnitudo 3 1 a comacchio terremoto ferrara scossa',?
-'tutti fuori per il terremoto o in casa per il coronavirus',?
-'abbiamo altri ca i a cui pensare ma ce ne ricorderemo della isoletta che ha avuto già un terremoto',?
-'terremoto terremoto turchia violenta scossa di magnitudo 6 a baskale ecco qui i dettagli',?
-'terremoto 12 km se comacchio fe magnitudo ml 3 1 23 february 2020 ore fuso orario italia ingv osservatorio nazionale terremoti',?
-'terremoto terremoto in emilia romagna a lido di spina ferrara di magnitudo 3 1 ecco qui i dettagli',?
-'io il coronavirusitalia è arrivato in italia non può andare peggio tg scossa di terremoto in emilia romagna sempre io',?
-'il coronavirus la terza guerra mondiale e il terremoto pronti a distruggere l italia ed il resto del mondo coronavirusitali',?
+'terremoto a correggio trema la terra in emilia romagna',?
+'scossa di terremoto da 3 4 gradi epicentro correggio',?
+'terremoto magnitudo 3 6 provincia di modena',?
+'terremoto paura in emilia romagna in corso le verifiche in edifici pubblici e scuole',?
+'scossa di terremoto avvertita anche nel modenese',?
+'terremoto a correggio nel reggiano scossa di magnitudo 3 4',?
+'compilate pure voi il questionario su hai sentito il terremoto',?
+'tra coronavirius e terremoto non sappiamo a cosa dobbiamo pensare per primo',?
+'una scossa di terremoto di magnitudo di 4 4 è stata avvertita alle 17 02 in provincia di cosenza a 2 chilometri da',?
+'una scossa di terremoto di magnitudo stimata tra 4 3 e 4 8 con epicentro nel cosentino è stata registrata alle ore 17 02 ht',?
+'a milano il corona in calabria il terremoto dio cerca di dirmi qualcosa secondo me',?
+'ricordo che nelle zone soggette a quarantena è vietato riversarsi in strada anche in caso di terremoto padre livio coronavirus terremoto radiomaria incominciata',?
+'la fine del mondo è vicina mi sa terremoto',?
+'una scossa di terremoto di magnitudo stimata tra 4 3 e 4 8 con epicentro nel cosentino è stata registrata alle ore 17 02 ht',?
+'calabresi e regioni vicine spero stiate tutti bene terremoto',?
+'in lombardia il corona virus fa svuotare i supermercati in calabria il terremoto li devasta conad virus',?
+'sono shockata terremoto',?
+'e il coronavirus e il terremoto e che cazzo lo posso dire',?
+'vabbè raga la fine è vicina terremoto',?
+'che non sia proprio il nostro anno fortunato questo 2020 terremoto coronaviruslombardia',?
+'mi raccomando state a casa ok terremoto coronavirus terremoto',?
+'e il coronavirus e il terremoto e che cazzo lo posso dire',?
+'terremoto in calabria un 2020 nel quale non ci vogliamo far mancare niente',?
+'stima provvisoria terremoto mag tra 4 3 e 4 8 ore 17 02 it del 24 02 2020 prov zona cosenza ingv 23997291',?
+'si è verificata in calabria una scossa di terremoto',?
+'terremoto in calabria borrelli non si segnalano danni da scossa',?
+'virus poi terremoto ma stiamo scherzando',?
+'qualcuno della calabria mi dica che ha appena sentito sto terremoto fortissimo terremoto',?
+'comunque in africa c è un intestazione di cavallette non è molto lontana terremoto',?
+'terremoto coronaviruslombardia manca solo un bell alluvione e viste le temperature c è il rischio e poi non ci siamo fatti mancare nulla',?
+'un supermercato di cosenza dopo il terremoto',?
+'inizio a fare confusione con i protocolli di sicurezza cercare riparo sotto un tavolo dopo aver lavato le mani per almeno',?
+'accendi la tv e senti parlare del coronavirus del terremoto ecc ma quindi che facciamo continuiamo a studiare per la sessione o è tempo perso no chiedo eh 2020dattiunacalmata',?
+'dopo i virologi dell università della vita attendo le analisi dei sismologi usciti dall università della strada con tesi su apocalisse e nostradamus terremoto coronavirus',?
+'in lombardia il corona virus fa svuotare i supermercati in calabria il terremoto li devasta conad virus',?
+'spero che stiate tutti bene calabria terremoto',?
+'come si chiama quando realizzi che il 2020 sarà un altro anno di merda covid19italy terremoto',?
+'covid 19 terremoto la natura si ribella s è rutt o c z',?
+'anno 2020 anno bisesto coronavirus terremoto attentato',?
+'c è stato il terremoto qui in calabria sto avendo seriamente paura terremotocalabria terremoto',?
+'calabresi e regioni vicine spero stiate tutti bene terremoto',?
+'voleva questo terremoto così per spezzare la noia del panico coronavirus',?
+'calabria terremoto di magnitudo 4 4 calabria terremoto magnitudo',?
+'come si chiama quando realizzi che il 2020 sarà un altro anno di merda covid19italy terremoto',?
+'prima il terremoto poi l attentato in germania durante l epidemia del coronavirus',?
+'terremoto scossa di magnitudo 4 4 vicino cosenza ingv a due chilometri da rende avvertita dalla popolazione ansa',?
+'non si segnalano per ora particolari danni a cose o persone l avete avvertito terremoto',?
+'terremoto in lombardia oggi 24febbraio 2020 in provincia di bergamo dati ingv',?
+'terremoto in calabria colpa di salvini e dei sovranisti',?
+'calabria terremoto ragazzi questa è stata almeno di quinto grado sembrava infinita sto raccogliendo libri e oggett',?
+'su tgcom hanno appena finito un servizio sul terremoto al momento non risultano feriti',?
+'coronavirus al nord terremoto in calabria di magnitudo stimata 4 5',?
+'terremoto scossa di magnitudo 4 4 vicino cosenza ingv a due chilometri da rende avvertita dalla popolazione ansa',?
+'una scossa di terremoto di magnitudo stimata tra 4 3 e 4 8 con epicentro nel cosentino è stata registrata alle ore 17 02 ht',?
+'come difendersi dal terremoto istruzioni pratiche per la famiglia edizione 1981',?
+'terremoto a cosenza',?
+'importante questa sera presadiretta non andrà in onda al posto nostro alle 21 20 su rai3 ci sarà uno speciale',?
+'una scossa di terremoto di magnitudo di 4 4 è stata avvertita alle 17 02 in provincia di cosenza a 2 chilometri da',?
+'ma cosa sta succedendo in italia non bastava l allarme coronavirus ora ci si mette anche il terremoto ci manca qual',?
+'io apro twitter tendenze 1 coronaviruslombardia 2 covid 19 3 terremoto sempre io',?
+'a questo 2020 chiedo solo un pò di tregua terremoto',?
+'ma se con il corona virus si deve stare chiusi in casa e con il terremoto si deve uscire di casa cosa cazzo facciamo dove c',?
+'si è verificata in calabria una scossa di terremoto',?
+'anno bisesto anno funesto è già stato detto terremoto covid19italia covid 19',?
+'bastaa sta regione fa schifo manca il lavoro mancano le risorse manca tutto e ora pure il terremoto vado via faccio le valigie e domani mi trasferisco a milano sicuro ok vado fuori sto paese mi ha stancato mi trasferisco in germania sicuro covid19',?
+'e per evitare il covid19italia è meglio stare in casa ti chiudi in casa e arriva una legnata di terremoto da 4 5 non per ess',?
+'terremoto al sud corona virus al nord ormai di belpaese c è restato solo il formaggio coronavirusitalla',?
+'terremoto no ma tutto ok non ci siamo spaventati',?
+'minchia che tempismo terremoto',?
+'terremoto a rende attimi di panico in tutta la calabria blogsicilianotizie',?
+'io apro twitter tendenze 1 coronaviruslombardia 2 covid 19 3 terremoto sempre io',?
+'anno bisesto anno funesto è già stato detto terremoto covid19italia covid 19',?
+'un terremoto di 4 4 gradi ha colpito il comune di rende a 6 chilometri da cosenza in calabria la scossa è arrivata otto',?
+'non si sa se dobbiamo uscire per il terremoto o entrare per il coronavirus terremoto',?
+'ma e terremoto',?
+'coronavirusitalia terremoto e niente siamo invisi agli dei',?
+'calabria terremoto di magnitudo 4 4 calabria terremoto magnitudo',?
+'c è stato il terremoto qui in calabria sto avendo seriamente paura terremotocalabria terremoto',?
+'porcatroia che scossa terremoto',?
+'al nord i supermercati vuoti per il corona virus al sud disastrati dal terremoto cosenza',?
+'terremoto a cosenza tanta paura ma sembra sia tutto ok così almeno abbiamo altro di cui parlare oltre al coronarvirusitalia su soddisfazioni',?
+'terremoto coronarvirusitalia poi che manca',?
+'terremoto scossa di magnitudo 4 4 vicino cosenza ingv a due chilometri da rende avvertita dalla popolazione ansa',?
+'molto ben fatto questo copia incolla terremoto coronavirus',?
+'no raga io non avevo mai visto un supermercato dopo un terremoto così',?
+'siamo tutti solidali in questi momenti restiamo uniti terremoto coronavirusitalia',?
+'coronavirus al nord terremoto in calabria di magnitudo stimata 4 5',?
+'tutta colpa di quelli che mentre festeggiavano capodanno hanno espresso il desiderio di vivere un anno memorabile terremoto coronavirus cavallette attentatogermania soleimani bugomorgan australiaonfire incidenteferroviario pd',?
+'tra coronavirius e terremoto non sappiamo a cosa dobbiamo pensare per primo',?
+'terremoto in calabria magnitudo tra 4 3 e 4 8 allerta a cosenza',?
+'inizio a fare confusione con i protocolli di sicurezza cercare riparo sotto un tavolo dopo aver lavato le mani per almeno',?
+'terremoto in calabria magnitudo tra 4 3 e 4 8 allerta a cosenza',?
+'prima tendenza in italia coronavirusitalia seconda tendenza terremoto io',?
+'coronavirus terremoto questo è l anno della champions me lo sento',?
+'poco fa fortissima scossa di terremoto tra cosenza e rende la gente è scesa in strada c è stato un grande panico gener',?
+'ora anche il terremoto oltre tre casi sospetti di coronavirus',?
+'numerose le telefonate arrivate al reparto provinciale dei vigili del fuoco a causa del terremoto',?
+'il surriscaldamento globale il coronavirus il terremoto in calabria ma che sta succedendo marò',?
+'tra coronavirius e terremoto non sappiamo a cosa dobbiamo pensare per primo',?
+'anno bisesto anno funesto è già stato detto terremoto covid19italia covid 19',?

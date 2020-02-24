@@ -63,7 +63,7 @@ public class HomeController extends Thread {
 
 	public double longitude, latitude;
 
-	public final int warningThreshold = 20, emergencyThreshold = 30, timeSpan = 600000;
+	public final int warningThreshold = 30, emergencyThreshold = 40, timeSpan = 600000;
 
 	public int earthquakeCounter, geoCounter;
 
@@ -289,7 +289,7 @@ public class HomeController extends Thread {
 			fw.close();
 
 			dataset = getDataFromArffFile("./unlabeledData.arff");
-			earthquakeCounter += countEarthquakes(dataset);
+			countEarthquakes(dataset);
 			Platform.runLater(() -> {
 				earthquakeCounterLabel.setText(String.valueOf(earthquakeCounter));
 			});
@@ -313,16 +313,15 @@ public class HomeController extends Thread {
 	}
 
 	public int countEarthquakes(Instances data) {
-		int count = 0;
 		try {
 			data.setClassIndex(data.numAttributes() - 1);
 			for (int i = 0; i < data.numInstances(); i++) {
 				String predictClass = trainingSet.classAttribute()
 						.value((int) filteredClassifier.classifyInstance(data.instance(i)));
 				if (predictClass.equals("earthquake")) {
-					count++;
-					if (count > warningThreshold) {
-						if (count > emergencyThreshold) {
+					earthquakeCounter++;
+					if (earthquakeCounter > warningThreshold) {
+						if (earthquakeCounter > emergencyThreshold) {
 							Platform.runLater(() -> {
 								messageLabel.setText("An earthquake has been recognized!");
 								messageLabel.setStyle("-fx-text-fill: red");
@@ -330,7 +329,7 @@ public class HomeController extends Thread {
 							System.out.println("An Earthquake has been recognized!");
 							emergency = true;
 							twitterScraper.setStop(true);
-							return count;
+							return earthquakeCounter;
 						} else {
 							Platform.runLater(() -> {
 								messageLabel.setText("Possible earthquake recognized");
@@ -344,7 +343,7 @@ public class HomeController extends Thread {
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
-		return count;
+		return earthquakeCounter;
 	}
 
 	public String cleanText(String text) {
@@ -422,15 +421,15 @@ public class HomeController extends Thread {
 			remove.setInputFormat(unlabeledTweets);
 
 			unlabeledTweets = Filter.useFilter(unlabeledTweets, remove);
-
-			earthquakeCounter += countEarthquakes(unlabeledTweets);
+			
+			earthquakeCounter = 0;
+			countEarthquakes(unlabeledTweets);
 
 			for (int i = 0; i < unlabeledTweets.numInstances(); i++) {
 				String predictClass = trainingSet.classAttribute()
 						.value((int) filteredClassifier.classifyInstance(unlabeledTweets.instance(i)));
 
 				labeledTweets.instance(i).setClassValue(predictClass);
-
 				System.out.println("PREDICTED VALUE: " + predictClass + "\t\t INSTANCE N: " + i);
 			}
 
