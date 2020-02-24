@@ -1,8 +1,0 @@
-% ----- android wearable module -----
-\begin{lstlisting}[language=Java,  basicstyle=\footnotesize]
-	Db.Films.aggregate{
-		$group{ _id: “$Production”, NFilm: {$sum: 1}},
-		$match{ _id: {$ne: “N/A”}},
-		$sort:{NFilm: -1}
-	}
-\end{lstlisting}

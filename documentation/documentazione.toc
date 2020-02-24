@@ -9,21 +9,17 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Use Cases Description}{4}{subsubsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.3}System Flow Diagram}{6}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Text analysis process}{7}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Analysis of entities}{8}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Data analysis}{9}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Building the classifier}{9}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}2016-2017 earthquakes database}{9}{subsubsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.3}Application parameters}{9}{subsubsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.7}Model analysis}{10}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Choosing the classifier}{10}{subsubsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.5}Data analysis}{8}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Building the classifier}{8}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}2016-2017 earthquakes database}{8}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Application parameters}{9}{subsubsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.6}Model analysis}{10}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Choosing the classifier}{10}{subsubsection.2.6.1}%
 \contentsline {section}{\numberline {3}Design}{11}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Software architecture}{11}{subsection.3.1}%
 \contentsline {section}{\numberline {4}Implementation}{12}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Used technologies}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Declaration of class Tweet}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Building the classifier}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Create}{12}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Read}{12}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Classification of a tweet}{12}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}GUI}{13}{subsection.4.7}%
-\contentsline {section}{\numberline {5}User Manual}{14}{section.5}%
+\contentsline {subsection}{\numberline {4.2}Building the classifier}{12}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Create}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Read}{13}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Classification of tweets}{14}{subsection.4.5}%
