@@ -1,9 +1,0 @@
-package main.resources.application;
-
-import com.mongodb.client.*;
-public class MongoManager {
-	final private String DB_NAME = "TweetSentiment";
-	private int port;
-	private String ip;
-	MongoClient mongoClient;
-}
